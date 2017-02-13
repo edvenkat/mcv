@@ -1,0 +1,44 @@
+
+1. https://www.bigjon.com/
+2. http://servcentre.in/
+3. https://www.constellationspecial.com/, https://www.constellationaffinity.com/
+4. I Love My Waitress 
+5. http://www.johncarrollhigh.com/
+6. Houston Auto Web 
+7. Fastwax
+8. A&G pools 
+9. SGI-SINGAPORE.com 
+10. Sports Bru 
+11. Zifo RnD Solutions 
+
+
+Project : BigJonSports
+Client : USA
+Environment : Core PHP
+Role : 
+url : https://www.bigjon.com/
+
+Brief description of the project:
+
+Big Jon Sports is a leader in the trolling world with their full line of downriggers, rod holders, and electronics mounts. They have a family atmosphere within the company, however they are big boys in the sport fishing world.
+
+
+Project : BigJonSports
+Client : USA
+Environment : HTML & Jquery
+Role : 
+url : http://servcentre.in/
+
+Brief description of the project:
+
+Project : constellationspecial
+Client : USA
+Environment : HTML & Jquery
+Role : 
+url :
+https://www.constellationspecial.com/
+https://www.constellationaffinity.com/
+
+
+Brief description of the project:
+Constellation, an Exelon company, is a leading competitive supplier of power, natural gas and energy products and services for homes and businesses across the United States and Canada.
