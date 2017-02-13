@@ -1,0 +1,121 @@
+Variables
+==========
+var greeting: String = "Hello World"
+Constants 
+=========
+let languageName = "Swift" // inferred as String
+let version = 1.0 // inferred as Double
+let introduced = 2014 // inferred as Int
+let isAwesome = true // inferred as Bool
+
+Data Types
+==========
+Int -for whole numbers.
+Double and Float for floating-point numbers 
+and Bool for boolean values such as: true of false.
+
+
+Array
+=====
+var cardNames: [String] = ["Jack", "Queen", "King"] - an array of a single type
+- an array with multiple types.
+
+Modifying an Array
+==================
+Lets create a new array that contains a todo list.
+	var todo = ["Write Blog","Return Call"]
+
+To add another item to our todo array we use the ‘+=’ operator:
+
+
+Dictionary
+==========
+
+The other collection type is a Dictionary which is similar to a Hash Table in other programming languages. A dictionary allows you to store key-value pairs and access the value by providing the key.
+
+var cards = ["Jack" : 11, "Queen" : 12, "King" : 13]
+
+
+Control Flow
+============
+	loops - while, do-while,for and for-in
+
+	while !complete {
+		println("Downloading...")
+	}
+
+	var message = "Starting to download"
+	do {
+		println(message)
+		message = "Downloading.."
+	} while !complete 
+
+	for var i = 1; i < cardNames.count; ++i {
+		println(cardNames[i])
+	}
+
+	for cardName in cardNames {
+		println(cardName)
+	}
+
+	for number in 1...10 {
+		println("\(number) times 2 is \(number*2)")
+	}
+
+	for (cardName, cardValue) in cards {
+		println("\(cardName) = \(cardValue)")
+	}
+
+Switch Statement :
+==================
+	switch cardValue {
+		case 11:
+			println("Jack")
+		case 12: 
+			println("Queen")
+		default:
+			println("Not found")
+	}
+
+Functions :
+===========
+	func printCard() {
+		println("Queen")
+	}
+	func printCard(cardName: String) {
+		println(cardName)
+	}
+
+Array :
+=======
+var shoppingList = ["Eggs", "Milk"]
+
+shoppingList.append("Flour")
+or 
+shoppingList += ["Baking Powder"]
+
+for item in shoppingList {
+	println(item)
+}
+
+for (index, value) in enumerate(shoppingList) {
+	println("Item \(index + 1): \(value)")
+}	
+
+Functions Without Parameters
+==============================
+func sayHelloWorld() -> String {
+	return "hello, world"
+}
+
+Closure Expression Syntax
+============================
+
+ Closure expression syntax has the following general form:
+
+    { (parameters) -> return type in
+
+        statements
+
+    }
+

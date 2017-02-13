@@ -1,0 +1,186 @@
+<?php
+	if($_POST['txt_city']!='' || $_POST['txt_zip']!='' ) {
+		$user_array[0]['id']='1';
+		$user_array[0]['zipcode']='32960';
+		$user_array[0]['name']='Vins Test 1';
+		$user_array[0]['address']='2770 Indian River Boulevard, Suite 400';
+		$user_array[0]['city']='Vero Beach';
+		$user_array[0]['state']='FL';
+		$user_array[0]['desc']="MyChangeAddress is a private business entity that facilitates the address change request process for its users. MyChangeAddress is independently owned and operated by Bridgevine, Inc. and is not affiliated with the United States Postal Service. MyChangeAddress acts as an authorized agent for users wishing to file their address change request with the United States Postal Service - this service is provided for a fee to cover postage, handling, and processing. Users submitting their address change request may also be presented offers for commercial products and services related to the moving process. MyChangeAddress files a hard copy of the official change of address form with the United States Postal Service on behalf of its users. The accuracy of the information is the responsibility of the user. If you just wish to file a change of address form with the US Postal Service and not receive our additional full address change service benefits, you may do so by visiting the USPS website. There is a handling fee that must be paid with a valid debit or credit card that matches the user's address. You can mail-in a copy of the official form for free - the form can be found on the Post Office web site or at any USPS location.";
+
+		$user_array[1]['id']='2';
+		$user_array[1]['zipcode']='32960';
+		$user_array[1]['name']='Vins Test 2';
+		$user_array[1]['address']='2770 Indian River Boulevard, Suite 400';
+		$user_array[1]['city']='Vero Beach';
+		$user_array[1]['state']='FL';
+		$user_array[1]['desc']="MyChangeAddress is a private business entity that facilitates the address change request process for its users. MyChangeAddress is independently owned and operated by Bridgevine, Inc. and is not affiliated with the United States Postal Service. MyChangeAddress acts as an authorized agent for users wishing to file their address change request with the United States Postal Service - this service is provided for a fee to cover postage, handling, and processing. Users submitting their address change request may also be presented offers for commercial products and services related to the moving process. MyChangeAddress files a hard copy of the official change of address form with the United States Postal Service on behalf of its users. The accuracy of the information is the responsibility of the user. If you just wish to file a change of address form with the US Postal Service and not receive our additional full address change service benefits, you may do so by visiting the USPS website. There is a handling fee that must be paid with a valid debit or credit card that matches the user's address. You can mail-in a copy of the official form for free - the form can be found on the Post Office web site or at any USPS location.";
+
+		$user_array[2]['id']='3';
+		$user_array[2]['zipcode']='32960';
+		$user_array[2]['name']='Vins Test 3';
+		$user_array[2]['address']='2770 Indian River Boulevard, Suite 400';
+		$user_array[2]['city']='VeroBeach';
+		$user_array[2]['state']='FL';
+		$user_array[2]['desc']="MyChangeAddress is a private business entity that facilitates the address change request process for its users. MyChangeAddress is independently owned and operated by Bridgevine, Inc. and is not affiliated with the United States Postal Service. MyChangeAddress acts as an authorized agent for users wishing to file their address change request with the United States Postal Service - this service is provided for a fee to cover postage, handling, and processing. Users submitting their address change request may also be presented offers for commercial products and services related to the moving process. MyChangeAddress files a hard copy of the official change of address form with the United States Postal Service on behalf of its users. The accuracy of the information is the responsibility of the user. If you just wish to file a change of address form with the US Postal Service and not receive our additional full address change service benefits, you may do so by visiting the USPS website. There is a handling fee that must be paid with a valid debit or credit card that matches the user's address. You can mail-in a copy of the official form for free - the form can be found on the Post Office web site or at any USPS location.";
+		
+		$user_array[3]['id']='4';
+		$user_array[3]['zipcode']='32960';
+		$user_array[3]['name']='Vins Test 4';
+		$user_array[3]['address']='2770 Indian River Boulevard, Suite 400';
+		$user_array[3]['city']='VeroBeach';
+		$user_array[3]['state']='FL';
+		$user_array[3]['desc']="MyChangeAddress is a private business entity that facilitates the address change request process for its users. MyChangeAddress is independently owned and operated by Bridgevine, Inc. and is not affiliated with the United States Postal Service. MyChangeAddress acts as an authorized agent for users wishing to file their address change request with the United States Postal Service - this service is provided for a fee to cover postage, handling, and processing. Users submitting their address change request may also be presented offers for commercial products and services related to the moving process. MyChangeAddress files a hard copy of the official change of address form with the United States Postal Service on behalf of its users. The accuracy of the information is the responsibility of the user. If you just wish to file a change of address form with the US Postal Service and not receive our additional full address change service benefits, you may do so by visiting the USPS website. There is a handling fee that must be paid with a valid debit or credit card that matches the user's address. You can mail-in a copy of the official form for free - the form can be found on the Post Office web site or at any USPS location.";
+
+
+		$user_array[4]['id']='5';
+		$user_array[4]['zipcode']='32960';
+		$user_array[4]['name']='Vins Test 5';
+		$user_array[4]['address']='2770 Indian River Boulevard, Suite 400';
+		$user_array[4]['city']='VeroBeach';
+		$user_array[4]['state']='FL';
+		$user_array[4]['desc']="MyChangeAddress is a private business entity that facilitates the address change request process for its users. MyChangeAddress is independently owned and operated by Bridgevine, Inc. and is not affiliated with the United States Postal Service. MyChangeAddress acts as an authorized agent for users wishing to file their address change request with the United States Postal Service - this service is provided for a fee to cover postage, handling, and processing. Users submitting their address change request may also be presented offers for commercial products and services related to the moving process. MyChangeAddress files a hard copy of the official change of address form with the United States Postal Service on behalf of its users. The accuracy of the information is the responsibility of the user. If you just wish to file a change of address form with the US Postal Service and not receive our additional full address change service benefits, you may do so by visiting the USPS website. There is a handling fee that must be paid with a valid debit or credit card that matches the user's address. You can mail-in a copy of the official form for free - the form can be found on the Post Office web site or at any USPS location.";
+
+
+		$user_array[5]['id']='6';
+		$user_array[5]['zipcode']='32960';
+		$user_array[5]['name']='Vins Test 6';
+		$user_array[5]['address']='2770 Indian River Boulevard, Suite 400';
+		$user_array[5]['city']='VeroBeach';
+		$user_array[5]['state']='FL';
+		$user_array[5]['desc']="MyChangeAddress is a private business entity that facilitates the address change request process for its users. MyChangeAddress is independently owned and operated by Bridgevine, Inc. and is not affiliated with the United States Postal Service. MyChangeAddress acts as an authorized agent for users wishing to file their address change request with the United States Postal Service - this service is provided for a fee to cover postage, handling, and processing. Users submitting their address change request may also be presented offers for commercial products and services related to the moving process. MyChangeAddress files a hard copy of the official change of address form with the United States Postal Service on behalf of its users. The accuracy of the information is the responsibility of the user. If you just wish to file a change of address form with the US Postal Service and not receive our additional full address change service benefits, you may do so by visiting the USPS website. There is a handling fee that must be paid with a valid debit or credit card that matches the user's address. You can mail-in a copy of the official form for free - the form can be found on the Post Office web site or at any USPS location.";
+
+
+		$user_array[6]['id']='7';
+		$user_array[6]['zipcode']='32960';
+		$user_array[6]['name']='Vins Test 7';
+		$user_array[6]['address']='2770 Indian River Boulevard, Suite 400';
+		$user_array[6]['city']='VeroBeach';
+		$user_array[6]['state']='FL';
+		$user_array[6]['desc']="MyChangeAddress is a private business entity that facilitates the address change request process for its users. MyChangeAddress is independently owned and operated by Bridgevine, Inc. and is not affiliated with the United States Postal Service. MyChangeAddress acts as an authorized agent for users wishing to file their address change request with the United States Postal Service - this service is provided for a fee to cover postage, handling, and processing. Users submitting their address change request may also be presented offers for commercial products and services related to the moving process. MyChangeAddress files a hard copy of the official change of address form with the United States Postal Service on behalf of its users. The accuracy of the information is the responsibility of the user. If you just wish to file a change of address form with the US Postal Service and not receive our additional full address change service benefits, you may do so by visiting the USPS website. There is a handling fee that must be paid with a valid debit or credit card that matches the user's address. You can mail-in a copy of the official form for free - the form can be found on the Post Office web site or at any USPS location.";
+
+		$user_array[7]['id']='8';
+		$user_array[7]['zipcode']='32960';
+		$user_array[7]['name']='Vins Test 8';
+		$user_array[7]['address']='2770 Indian River Boulevard, Suite 400';
+		$user_array[7]['city']='VeroBeach';
+		$user_array[7]['state']='FL';
+		$user_array[7]['desc']="MyChangeAddress is a private business entity that facilitates the address change request process for its users. MyChangeAddress is independently owned and operated by Bridgevine, Inc. and is not affiliated with the United States Postal Service. MyChangeAddress acts as an authorized agent for users wishing to file their address change request with the United States Postal Service - this service is provided for a fee to cover postage, handling, and processing. Users submitting their address change request may also be presented offers for commercial products and services related to the moving process. MyChangeAddress files a hard copy of the official change of address form with the United States Postal Service on behalf of its users. The accuracy of the information is the responsibility of the user. If you just wish to file a change of address form with the US Postal Service and not receive our additional full address change service benefits, you may do so by visiting the USPS website. There is a handling fee that must be paid with a valid debit or credit card that matches the user's address. You can mail-in a copy of the official form for free - the form can be found on the Post Office web site or at any USPS location.";
+
+
+		if($_POST['txt_zip']!='') {
+			foreach($user_array as $user_key => $user_value) {
+				if($user_value['zipcode']==$_POST['txt_zip'] || strcmp($user_value['city'],$_POST['txt_city'])==0) {
+					$select_array[]=$user_value;
+				}
+			}
+		}
+	}
+?>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+<style type="text/css">
+.bs-example{
+}
+.form-group {
+	width:200px;
+	float:left;
+	margin-right:28px;
+}
+.form-submit {
+	margin-top:26px;
+	float:left;
+}
+.clearer{
+	clear:both;
+}
+.align{margin:10px 0px;}
+.floatLeft { float:left; }
+.box-2 {width:145px;margin-right:10px;height:170px;margin-bottom:20px;}
+.box-2-inner{width:100%;}
+.colLeft { float:left; width:100px;margin-right:20px;}
+.colRight { float:left; width:380px; }
+.txt-desc2b { color:#64575d; } 
+.txt-desc2b span { float:left; padding-top:6px; }
+.close1{width:100%;clear:both;padding:20px;border:1px solid #43609C;margin-bottom:10px;}
+.heading{background-color:#43609C;width:100%;padding:10px;font-size:19px;color:#FFFFFF;}
+
+</style>
+<script>
+$(document).ready(function() {
+	$('#search').click(function () {
+		var frm=document.frm_search;
+		var str='';
+		if($("#txt_city").val()=="" && $("#txt_zip").val()==""){
+			str+="Please Enter Keyword to Search.";
+		}
+		if(str!='') {
+			alert(str);
+			return false;
+		} else {
+			frm.submit();
+			return false;
+		}
+	});
+});
+function view_details(view_id) {
+	//alert(view_id);
+	$('.close1').hide();
+	$('.box-details-'+view_id).show();
+	
+}
+
+function close_details(view_id) {
+	$('.box-details-'+view_id).hide();
+}
+
+</script>
+<div class='heading'>Search Waiter</div>
+<div class="bs-example">
+	<form name="frm_search" id="frm_search" action="index.php" method="post">
+		<div class="form-group">
+			<label>City:</label>
+			<input type="text" class="form-control" id="txt_city" name="txt_city" value="<?php echo ($_POST['txt_city']!='')?$_POST['txt_city']:''?>">
+		</div>
+		<div class="form-group">
+			<label>Zip Code:</label>
+			<input type="text" class="form-control"id="txt_zip" name="txt_zip" value="<?php echo ($_POST['txt_zip']!='')?$_POST['txt_zip']:''?>">
+		</div>
+		<div class='form-submit'>
+			<button type="submit" class="btn btn-primary" id='search'>Search</button>
+		</div>
+	</form>
+</div>
+<div class='clearer'></div>
+<?php 
+	if(count($select_array)>0) {
+		foreach($select_array as $select_key => $select_value) { ?>
+		<div class="box-2 floatLeft" align='center'>
+			<img src="img/ico-logo1.gif" width="100" height="100" title="<?php echo $select_value["name"]; ?>"/>
+			<div class='align'><strong><?php echo $select_value["name"]; ?></strong></div>
+			<div class='align'><button class="btn btn-primary" onclick='view_details(<?php echo $select_value["id"]; ?>)'>More Info</button></div>
+		</div>
+		<div class="box-details-<?php echo $select_value["id"]; ?> close1" style='display:none'>
+			<div align='right'><a href="#" onclick='close_details(<?php echo $select_value["id"]; ?>)'>X</a></div>
+			<div class="box-2-inner">
+				<div class="colLeft">
+					<div class="image">
+						<img src="img/ico-logo1.gif" width="100" height="140" title="<?php echo $select_value["name"]; ?>"/>
+					</div>
+				</div>
+				<div class="colRight">
+					<h3><?php echo $select_value["name"]; ?></h3>
+					<div class="txt-desc2b"><span><?php echo $select_value["address"]."<br>".$select_value["city"].", ".$select_value["state"]." ".$select_value["zipcode"] ?></span></div>
+				</div>
+				<div class="clearer">&nbsp;</div>
+				<div><?php echo $select_value["desc"]; ?></div>
+			</div>
+		</div>
+	<?php } } else if(count($select_array)==0 && ($_POST['txt_city']!='' || $_POST['txt_zip']!='')) {
+		echo '<div class="clearer">&nbsp;</div><div align="center">
+				<span style="color:red;padding-top:30px;font-size: 16px;">No Waiter Found.</span>
+			</div>';
+	}
+?>

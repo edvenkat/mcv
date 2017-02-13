@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title> Point Table </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+ </head>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script src="js/right.js"></script>
+ <script>
+	$(document).ready(function(){
+		$('input').each(function() {
+			if($(this).attr('name').search('min')!=-1)
+				$(this).css('color','red')
+			if($(this).attr('name').search('add')!=-1)
+				$(this).css('color','green')
+		});
+	});
+	function tot_team_fun(id) {
+		var team_total=800;
+		$.ajax({
+			type: "POST",
+			url: "ajax/session.php",
+			data: $("#frm_points_table").serialize(),
+			success: function(data) {
+				//alert('test');
+			}
+		});
+		$('#'+id+' input[type="text"]').each(function() {
+			if($(this).attr('name').search('min')==-1)
+				team_total=parseInt(team_total)+parseInt((($(this).val()!='')?$(this).val():"0"));
+			else
+				team_total=parseInt(team_total)-parseInt((($(this).val()!='')?$(this).val():"0"));
+		});
+		$('#'+id+'_total').html(team_total);
+		$('#hidden_'+id+'_total').val(team_total);
+	}
+</script>
+ <body>
+	<div class='container'>
+		<div class='left_container'>
+			<img src='images/img.jpg'>
+			<table border='0' cellpadding='0' cellspacing='0' class='point_table' style="width:753px;text-align:center;" align='center'>
+			<form name='frm_points_table' id='frm_points_table' action='' method='post'>
+				<tr style='background:#F5FAFE'>
+					<td rowspan='2' style='font-size:16px;width:90px;'>TEAM</td>
+					<td colspan='3' style='font-size:14px;height:30px;'>GAME 1</td>
+					<td colspan='3' style='font-size:14px;'>GAME 2</td>
+					<td colspan='3' style='font-size:14px;'>GAME 3</td>
+					<td colspan='3' style='font-size:14px;'>GAME 4</td>
+					<td colspan='3' style='font-size:14px;'>GAME 5</td>
+					<td colspan='3' style='font-size:14px;'>GAME 6</td>
+					<td rowspan='2' style='font-size:16px;width:40px;'>TOTAL</td>
+				</tr>
+				<tr style='background:#F5FAFE'>
+					<td class='space_01'>POINTS<br><span class='pts'><b>100pts</b></span></td>
+					<td class='space_01'>ADD<br><span class='add'><b>20pts</b></span></td>
+					<td class='space_01'>MINUS<br><span class='mins'><b>30pts</b></span></td>
+
+					<td class='space_01'>POINTS<br><span class='pts'><b>100pts</b></span></td>
+					<td class='space_01'>ADD<br><span class='add'><b>20pts</b></span></td>
+					<td class='space_01'>MINUS<br><span class='mins'><b>30pts</b></span></td>
+
+					<td class='space_01'>POINTS<br><span class='pts'><b>100pts</b></span></td>
+					<td class='space_01'>ADD<br><span class='add'><b>20pts</b></span></td>
+					<td class='space_01'>MINUS<br><span class='mins'><b>30pts</b></span></td>
+
+					<td class='space_01'>POINTS<br><span class='pts'><b>100pts</b></span></td>
+					<td class='space_01'>ADD<br><span class='add'><b>20pts</b></span></td>
+					<td class='space_01'>MINUS<br><span class='mins'><b>30pts</b></span></td>
+
+					<td class='space_01'>POINTS<br><span class='pts'><b>100pts</b></span></td>
+					<td class='space_01'>ADD<br><span class='add'><b>20pts</b></span></td>
+					<td class='space_01'>MINUS<br><span class='mins'><b>30pts</b></span></td>
+
+					<td class='space_01'>POINTS<br><span class='pts'><b>100pts</b></span></td>
+					<td class='space_01'>ADD<br><span class='add'><b>20pts</b></span></td>
+					<td class='space_01'>MINUS<br><span class='mins'><b>30pts</b></span></td>
+				</tr>
+				<tr id='team1' style='background:#F7F7F7'>
+					<td><img src='rahmath.jpg' width='90px' height='70px'/></td>
+					<td><input type="text"  name="team1_games1_pts" id='team1_games1_pts' value="" onblur='tot_team_fun("team1")'/></td>
+					<td><input type="text"  name="team1_games1_add" id='team1_games1_add' value="" onblur='tot_team_fun("team1")' /></td>
+					<td><input type="text"  name="team1_games1_min" id='team1_games1_min' value="" onblur='tot_team_fun("team1")'/></td>
+
+					<td><input type="text"  name="team1_games2_pts" id='team1_games2_pts' value="" onblur='tot_team_fun("team1")'/></td>
+					<td><input type="text"  name="team1_games2_add" id='team1_games2_add' value="" onblur='tot_team_fun("team1")' /></td>
+					<td><input type="text"  name="team1_games2_min" id='team1_games2_min' value="" onblur='tot_team_fun("team1")'/></td>
+
+					<td><input type="text"  name="team1_games3_pts" id='team1_games3_pts' value="" onblur='tot_team_fun("team1")'/></td>
+					<td><input type="text"  name="team1_games3_add" id='team1_games3_add' value="" onblur='tot_team_fun("team1")' /></td>
+					<td><input type="text"  name="team1_games3_min" id='team1_games3_min' value="" onblur='tot_team_fun("team1")'/></td>
+
+					<td><input type="text"  name="team1_games4_pts" id='team1_games4_pts' value="" onblur='tot_team_fun("team1")'/></td>
+					<td><input type="text"  name="team1_games4_add" id='team1_games4_add' value="" onblur='tot_team_fun("team1")' /></td>
+					<td><input type="text"  name="team1_games4_min" id='team1_games4_min' value="" onblur='tot_team_fun("team1")'/></td>
+
+					<td><input type="text"  name="team1_games5_pts" id='team1_games5_pts' value="" onblur='tot_team_fun("team1")'/></td>
+					<td><input type="text"  name="team1_games5_add" id='team1_games5_add' value="" onblur='tot_team_fun("team1")' /></td>
+					<td><input type="text"  name="team1_games5_min" id='team1_games5_min' value="" onblur='tot_team_fun("team1")'/></td>
+
+
+					<td><input type="text"  name="team1_games6_pts" id='team1_games6_pts' value="" onblur='tot_team_fun("team1")'/></td>
+					<td><input type="text"  name="team1_games6_add" id='team1_games6_add' value="" onblur='tot_team_fun("team1")' /></td>
+					<td><input type="text"  name="team1_games6_min" id='team1_games6_min' value="" onblur='tot_team_fun("team1")'/></td>
+					<td><span id='team1_total'>800</span><input type="hidden"  name="hidden_team1_total" id='hidden_team1_total' value="800"/></td>
+				</tr>
+				<tr id='team2'>
+					<td><img src='rahmath.jpg' width='90px' height='70px'/></td>
+					<td><input type="text"  name="team2_games1_pts" id='team2_games1_pts' value="" onblur='tot_team_fun("team2")'/></td>
+					<td><input type="text"  name="team2_games1_add" id='team2_games1_add' value="" onblur='tot_team_fun("team2")' /></td>
+					<td><input type="text"  name="team2_games1_min" id='team2_games1_min' value="" onblur='tot_team_fun("team2")'/></td>
+
+					<td><input type="text"  name="team2_games2_pts" id='team2_games2_pts' value="" onblur='tot_team_fun("team2")'/></td>
+					<td><input type="text"  name="team2_games2_add" id='team2_games2_add' value="" onblur='tot_team_fun("team2")' /></td>
+					<td><input type="text"  name="team2_games2_min" id='team2_games2_min' value="" onblur='tot_team_fun("team2")'/></td>
+
+					<td><input type="text"  name="team2_games3_pts" id='team2_games3_pts' value="" onblur='tot_team_fun("team2")'/></td>
+					<td><input type="text"  name="team2_games3_add" id='team2_games3_add' value="" onblur='tot_team_fun("team2")' /></td>
+					<td><input type="text"  name="team2_games3_min" id='team2_games3_min' value="" onblur='tot_team_fun("team2")'/></td>
+
+					<td><input type="text"  name="team2_games4_pts" id='team2_games4_pts' value="" onblur='tot_team_fun("team2")'/></td>
+					<td><input type="text"  name="team2_games4_add" id='team2_games4_add' value="" onblur='tot_team_fun("team2")' /></td>
+					<td><input type="text"  name="team2_games4_min" id='team2_games4_min' value="" onblur='tot_team_fun("team2")'/></td>
+
+					<td><input type="text"  name="team2_games5_pts" id='team2_games5_pts' value="" onblur='tot_team_fun("team2")'/></td>
+					<td><input type="text"  name="team2_games5_add" id='team2_games5_add' value="" onblur='tot_team_fun("team2")' /></td>
+					<td><input type="text"  name="team2_games5_min" id='team2_games5_min' value="" onblur='tot_team_fun("team2")'/></td>
+
+
+					<td><input type="text"  name="team2_games6_pts" id='team2_games6_pts' value="" onblur='tot_team_fun("team2")'/></td>
+					<td><input type="text"  name="team2_games6_add" id='team2_games6_add' value="" onblur='tot_team_fun("team2")' /></td>
+					<td><input type="text"  name="team2_games6_min" id='team2_games6_min' value="" onblur='tot_team_fun("team2")'/></td>
+					<td><span id='team2_total'>800</span><input type="hidden"  name="hidden_team2_total" id='hidden_team2_total' value="800"/></td>
+				</tr>
+				<tr id='team3' style='background:#F7F7F7'>
+					<td><img src='rahmath.jpg' width='90px' height='70px'/></td>
+					<td><input type="text"  name="team3_games1_pts" id='team3_games1_pts' value="" onblur='tot_team_fun("team3")'/></td>
+					<td><input type="text"  name="team3_games1_add" id='team3_games1_add' value="" onblur='tot_team_fun("team3")' /></td>
+					<td><input type="text"  name="team3_games1_min" id='team3_games1_min' value="" onblur='tot_team_fun("team3")'/></td>
+
+					<td><input type="text"  name="team3_games2_pts" id='team3_games2_pts' value="" onblur='tot_team_fun("team3")'/></td>
+					<td><input type="text"  name="team3_games2_add" id='team3_games2_add' value="" onblur='tot_team_fun("team3")' /></td>
+					<td><input type="text"  name="team3_games2_min" id='team3_games2_min' value="" onblur='tot_team_fun("team3")'/></td>
+
+					<td><input type="text"  name="team3_games3_pts" id='team3_games3_pts' value="" onblur='tot_team_fun("team3")'/></td>
+					<td><input type="text"  name="team3_games3_add" id='team3_games3_add' value="" onblur='tot_team_fun("team3")' /></td>
+					<td><input type="text"  name="team3_games3_min" id='team3_games3_min' value="" onblur='tot_team_fun("team3")'/></td>
+
+					<td><input type="text"  name="team3_games4_pts" id='team3_games4_pts' value="" onblur='tot_team_fun("team3")'/></td>
+					<td><input type="text"  name="team3_games4_add" id='team3_games4_add' value="" onblur='tot_team_fun("team3")' /></td>
+					<td><input type="text"  name="team3_games4_min" id='team3_games4_min' value="" onblur='tot_team_fun("team3")'/></td>
+
+					<td><input type="text"  name="team3_games5_pts" id='team3_games5_pts' value="" onblur='tot_team_fun("team3")'/></td>
+					<td><input type="text"  name="team3_games5_add" id='team3_games5_add' value="" onblur='tot_team_fun("team3")' /></td>
+					<td><input type="text"  name="team3_games5_min" id='team3_games5_min' value="" onblur='tot_team_fun("team3")'/></td>
+
+
+					<td><input type="text"  name="team3_games6_pts" id='team3_games6_pts' value="" onblur='tot_team_fun("team3")'/></td>
+					<td><input type="text"  name="team3_games6_add" id='team3_games6_add' value="" onblur='tot_team_fun("team3")' /></td>
+					<td><input type="text"  name="team3_games6_min" id='team3_games6_min' value="" onblur='tot_team_fun("team3")'/></td>
+					<td><span id='team3_total'>800</span><input type="hidden"  name="hidden_team3_total" id='hidden_team3_total' value="800"/></td>
+					</tr>
+				<tr id='team4'>
+					<td><img src='rahmath.jpg' width='90px' height='70px'/></td>
+					<td><input type="text"  name="team4_games1_pts" id='team4_games1_pts' value="" onblur='tot_team_fun("team4")'/></td>
+					<td><input type="text"  name="team4_games1_add" id='team4_games1_add' value="" onblur='tot_team_fun("team4")' /></td>
+					<td><input type="text"  name="team4_games1_min" id='team4_games1_min' value="" onblur='tot_team_fun("team4")'/></td>
+
+					<td><input type="text"  name="team4_games2_pts" id='team4_games2_pts' value="" onblur='tot_team_fun("team4")'/></td>
+					<td><input type="text"  name="team4_games2_add" id='team4_games2_add' value="" onblur='tot_team_fun("team4")' /></td>
+					<td><input type="text"  name="team4_games2_min" id='team4_games2_min' value="" onblur='tot_team_fun("team4")'/></td>
+
+					<td><input type="text"  name="team4_games3_pts" id='team4_games3_pts' value="" onblur='tot_team_fun("team4")'/></td>
+					<td><input type="text"  name="team4_games3_add" id='team4_games3_add' value="" onblur='tot_team_fun("team4")' /></td>
+					<td><input type="text"  name="team4_games3_min" id='team4_games3_min' value="" onblur='tot_team_fun("team4")'/></td>
+
+					<td><input type="text"  name="team4_games4_pts" id='team4_games4_pts' value="" onblur='tot_team_fun("team4")'/></td>
+					<td><input type="text"  name="team4_games4_add" id='team4_games4_add' value="" onblur='tot_team_fun("team4")' /></td>
+					<td><input type="text"  name="team4_games4_min" id='team4_games4_min' value="" onblur='tot_team_fun("team4")'/></td>
+
+					<td><input type="text"  name="team4_games5_pts" id='team4_games5_pts' value="" onblur='tot_team_fun("team4")'/></td>
+					<td><input type="text"  name="team4_games5_add" id='team4_games5_add' value="" onblur='tot_team_fun("team4")' /></td>
+					<td><input type="text"  name="team4_games5_min" id='team4_games5_min' value="" onblur='tot_team_fun("team4")'/></td>
+
+
+					<td><input type="text"  name="team4_games6_pts" id='team4_games6_pts' value="" onblur='tot_team_fun("team4")'/></td>
+					<td><input type="text"  name="team4_games6_add" id='team4_games6_add' value="" onblur='tot_team_fun("team4")' /></td>
+					<td><input type="text"  name="team4_games6_min" id='team4_games6_min' value="" onblur='tot_team_fun("team4")'/></td>
+					<td><span id='team4_total'>800</span><input type="hidden"  name="hidden_team4_total" id='hidden_team4_total' value="800"/></td>
+				</tr>
+				<tr id='team5' style='background:#F7F7F7'>
+					<td><img src='rahmath.jpg' width='90px' height='70px'/></td>
+					<td><input type="text"  name="team5_games1_pts" id='team5_games1_pts' value="" onblur='tot_team_fun("team5")'/></td>
+					<td><input type="text"  name="team5_games1_add" id='team5_games1_add' value="" onblur='tot_team_fun("team5")' /></td>
+					<td><input type="text"  name="team5_games1_min" id='team5_games1_min' value="" onblur='tot_team_fun("team5")'/></td>
+
+					<td><input type="text"  name="team5_games2_pts" id='team5_games2_pts' value="" onblur='tot_team_fun("team5")'/></td>
+					<td><input type="text"  name="team5_games2_add" id='team5_games2_add' value="" onblur='tot_team_fun("team5")' /></td>
+					<td><input type="text"  name="team5_games2_min" id='team5_games2_min' value="" onblur='tot_team_fun("team5")'/></td>
+
+					<td><input type="text"  name="team5_games3_pts" id='team5_games3_pts' value="" onblur='tot_team_fun("team5")'/></td>
+					<td><input type="text"  name="team5_games3_add" id='team5_games3_add' value="" onblur='tot_team_fun("team5")' /></td>
+					<td><input type="text"  name="team5_games3_min" id='team5_games3_min' value="" onblur='tot_team_fun("team5")'/></td>
+
+					<td><input type="text"  name="team5_games4_pts" id='team5_games4_pts' value="" onblur='tot_team_fun("team5")'/></td>
+					<td><input type="text"  name="team5_games4_add" id='team5_games4_add' value="" onblur='tot_team_fun("team5")' /></td>
+					<td><input type="text"  name="team5_games4_min" id='team5_games4_min' value="" onblur='tot_team_fun("team5")'/></td>
+
+					<td><input type="text"  name="team5_games5_pts" id='team5_games5_pts' value="" onblur='tot_team_fun("team5")'/></td>
+					<td><input type="text"  name="team5_games5_add" id='team5_games5_add' value="" onblur='tot_team_fun("team5")' /></td>
+					<td><input type="text"  name="team5_games5_min" id='team5_games5_min' value="" onblur='tot_team_fun("team5")'/></td>
+
+
+					<td><input type="text"  name="team5_games6_pts" id='team5_games6_pts' value="" onblur='tot_team_fun("team5")'/></td>
+					<td><input type="text"  name="team5_games6_add" id='team5_games6_add' value="" onblur='tot_team_fun("team5")' /></td>
+					<td><input type="text"  name="team5_games6_min" id='team5_games6_min' value="" onblur='tot_team_fun("team5")'/></td>
+					<td><span id='team5_total'>800</span><input type="hidden"  name="hidden_team5_total" id='hidden_team5_total' value="800"/></td>
+				</tr>
+				<tr id='team6'>
+					<td><img src='rahmath.jpg' width='90px' height='70px'/></td>
+					<td><input type="text"  name="team6_games1_pts" id='team6_games1_pts' value="" onblur='tot_team_fun("team6")'/></td>
+					<td><input type="text"  name="team6_games1_add" id='team6_games1_add' value="" onblur='tot_team_fun("team6")' /></td>
+					<td><input type="text"  name="team6_games1_min" id='team6_games1_min' value="" onblur='tot_team_fun("team6")'/></td>
+
+					<td><input type="text"  name="team6_games2_pts" id='team6_games2_pts' value="" onblur='tot_team_fun("team6")'/></td>
+					<td><input type="text"  name="team6_games2_add" id='team6_games2_add' value="" onblur='tot_team_fun("team6")' /></td>
+					<td><input type="text"  name="team6_games2_min" id='team6_games2_min' value="" onblur='tot_team_fun("team6")'/></td>
+
+					<td><input type="text"  name="team6_games3_pts" id='team6_games3_pts' value="" onblur='tot_team_fun("team6")'/></td>
+					<td><input type="text"  name="team6_games3_add" id='team6_games3_add' value="" onblur='tot_team_fun("team6")' /></td>
+					<td><input type="text"  name="team6_games3_min" id='team6_games3_min' value="" onblur='tot_team_fun("team6")'/></td>
+
+					<td><input type="text"  name="team6_games4_pts" id='team6_games4_pts' value="" onblur='tot_team_fun("team6")'/></td>
+					<td><input type="text"  name="team6_games4_add" id='team6_games4_add' value="" onblur='tot_team_fun("team6")' /></td>
+					<td><input type="text"  name="team6_games4_min" id='team6_games4_min' value="" onblur='tot_team_fun("team6")'/></td>
+
+					<td><input type="text"  name="team6_games5_pts" id='team6_games5_pts' value="" onblur='tot_team_fun("team6")'/></td>
+					<td><input type="text"  name="team6_games5_add" id='team6_games5_add' value="" onblur='tot_team_fun("team6")' /></td>
+					<td><input type="text"  name="team6_games5_min" id='team6_games5_min' value="" onblur='tot_team_fun("team6")'/></td>
+
+
+					<td><input type="text"  name="team6_games6_pts" id='team6_games6_pts' value="" onblur='tot_team_fun("team6")'/></td>
+					<td><input type="text"  name="team6_games6_add" id='team6_games6_add' value="" onblur='tot_team_fun("team6")' /></td>
+					<td><input type="text"  name="team6_games6_min" id='team6_games6_min' value="" onblur='tot_team_fun("team6")'/></td>
+					<td><span id='team6_total'>800</span><input type="hidden"  name="hidden_team6_total" id='hidden_team6_total' value="800"/></td>
+				</tr>
+				<tr id='team7' style='background:#F7F7F7'>
+					<td><img src='rahmath.jpg' width='90px' height='70px'/></td>
+					<td><input type="text"  name="team7_games1_pts" id='team7_games1_pts' value="" onblur='tot_team_fun("team7")'/></td>
+					<td><input type="text"  name="team7_games1_add" id='team7_games1_add' value="" onblur='tot_team_fun("team7")' /></td>
+					<td><input type="text"  name="team7_games1_min" id='team7_games1_min' value="" onblur='tot_team_fun("team7")'/></td>
+
+					<td><input type="text"  name="team7_games2_pts" id='team7_games2_pts' value="" onblur='tot_team_fun("team7")'/></td>
+					<td><input type="text"  name="team7_games2_add" id='team7_games2_add' value="" onblur='tot_team_fun("team7")' /></td>
+					<td><input type="text"  name="team7_games2_min" id='team7_games2_min' value="" onblur='tot_team_fun("team7")'/></td>
+
+					<td><input type="text"  name="team7_games3_pts" id='team7_games3_pts' value="" onblur='tot_team_fun("team7")'/></td>
+					<td><input type="text"  name="team7_games3_add" id='team7_games3_add' value="" onblur='tot_team_fun("team7")' /></td>
+					<td><input type="text"  name="team7_games3_min" id='team7_games3_min' value="" onblur='tot_team_fun("team7")'/></td>
+
+					<td><input type="text"  name="team7_games4_pts" id='team7_games4_pts' value="" onblur='tot_team_fun("team7")'/></td>
+					<td><input type="text"  name="team7_games4_add" id='team7_games4_add' value="" onblur='tot_team_fun("team7")' /></td>
+					<td><input type="text"  name="team7_games4_min" id='team7_games4_min' value="" onblur='tot_team_fun("team7")'/></td>
+
+					<td><input type="text"  name="team7_games5_pts" id='team7_games5_pts' value="" onblur='tot_team_fun("team7")'/></td>
+					<td><input type="text"  name="team7_games5_add" id='team7_games5_add' value="" onblur='tot_team_fun("team7")' /></td>
+					<td><input type="text"  name="team7_games5_min" id='team7_games5_min' value="" onblur='tot_team_fun("team7")'/></td>
+
+
+					<td><input type="text"  name="team7_games6_pts" id='team7_games6_pts' value="" onblur='tot_team_fun("team7")'/></td>
+					<td><input type="text"  name="team7_games6_add" id='team7_games6_add' value="" onblur='tot_team_fun("team7")' /></td>
+					<td><input type="text"  name="team7_games6_min" id='team7_games6_min' value="" onblur='tot_team_fun("team7")'/></td>
+					<td><span id='team7_total'>800</span><input type="hidden"  name="hidden_team7_total" id='hidden_team7_total' value="800"/></td>
+				</tr>
+				</form>
+			</table>
+		</div>
+		<div class='right_container'>
+	<img src='images/logo-vins.gif' align='center'>
+	<div id="rotator" style="height:210px;width:250px"><canvas height="200" width="260" id="my-canvas"></canvas></div>
+	<div align='center' class='btn-1'><a href='' id='start'>START</a></div>
+	<div align='center' class='btn-1'><a href='' id='pause'>PAUSE</a></div>
+	<div align='center' class='btn-1'><a href='' id='reset'>RESET</a></div>
+	<div align='center' class='btn-2'><a href='game_team_list.php?play=game1' id='game1'>GAME 1</a></div>
+	<div align='center' class='btn-2'><a href='game_team_list.php?play=game4' id='game4'>GAME 4</a></div>
+	<div align='center' class='btn-2'><a href='game_team_list.php?play=game2' id='game2'>GAME 2</a></div>
+	<div align='center' class='btn-2'><a href='game_team_list.php?play=game5' id='game5'>GAME 5</a></div>
+	<div align='center' class='btn-2'><a href='game_team_list.php?play=game3' id='game3'>GAME 3</a></div>
+	<div align='center' class='btn-2'><a href='game_team_list.php?play=game6' id='game6'>GAME 6</a></div>
+	<div align='center' class='btn-1 clear'><a href='index.php' id='point'>POINT TABLE</a></div> 
+	<img class='eo_log' src='images/logo-eo.gif' align='center'>
+</div>
+ <script>
+	function check(i) {
+		if (i<10) {
+			i = "0" + i
+		}; 
+		return i;
+	}
+</script>		<div class='clear'></div>
+	</div>
+ </body>
+</html>

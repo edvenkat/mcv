@@ -1,0 +1,466 @@
+#TITLE=PHP
+; EditPlus Auto-completion File v1.0 written by ES-Computing.
+; This file is intended to be used by HTML Toolbar of EditPlus.
+; <WARNING>
+; This file is required for EditPlus to run correctly.
+; You can modify only the content of each entry.
+; Do not add/remove any entry.
+; Do not modify title of each entry.
+
+#CASE=n
+#T=B
+<b>^!</b>
+#T=ti
+title="^!"
+#T=I
+<i>^!</i>
+#T=U
+<u>^!</u>
+#T=H1
+<h1>^!</h1>
+#T=H2
+<h2>^!</h2>
+#T=H3
+<h3>^!</h3>
+#T=H4
+<h4>^!</h4>
+#T=H5
+<h5>^!</h5>
+#T=H6
+<h6>^!</h6>
+#T=BR
+<br />^!
+#T=P
+<p>^!</p>
+#T=nb
+&nbsp;^!
+#T=A
+<a href="^!"></a>
+#T=HR
+<hr>^!
+#T=IMG
+<img src="^!" border="0" alt=" " />
+#T=CENTER
+<center>^!</center>
+#T=BLQ
+<blockquote>^!</blockquote>
+#T=PRE
+<pre>^!</pre>
+#T=<!
+<!-- ^! -->
+#T=UL
+<ul type="disc">
+	<li>^!</li>
+	<li></li>
+</ul>
+#T=OL
+<ol type="1" start="1">
+	<li>^!</li>
+	<li></li>
+</ol>
+#T=li
+<li>^!</li>
+#T=DL
+<dl>
+	<dt>^!<dt>
+	<dd><dd>
+</dl>
+#T=FORM1
+<form name="^!" id="" action="" method="post" enctype="multipart/form-data">
+</form>
+#T=FRAME
+<frameset rows="^!," cols=",">
+	<frame src="" name="">
+	<frame src="" name="">
+</frameset>
+#T=MAP
+<map name="^!">
+	<area shape="" href="" coords="" alt=" ">
+</map>
+#T=SCRIPT
+<script language="javascript" type="text/javascript">
+^!
+</script><noscript></noscript>
+#t=applet
+<applet code="^!" width="" height="">
+</applet>
+#t=text
+<input type="text" title=" " name="txt_^!" value="" />
+#t=select
+<select name="sel_^!" title=" "></select>
+#t=radio
+<input type="radio" title=" " name="rdo_^!" />
+#t=checkbox
+<input type="checkbox" title=" " name="chk_^!" />
+#t=textarea
+<textarea name="txt_^!" rows="" title=" " cols=""></textarea>
+#t=reset
+<input type="reset" name="cmd_reset" title=" " name="^!" />
+#t=submit
+<input type="submit" name="cmd_submit" title=" " value="^!" />
+#t=button
+<input type="button" name="cmd_button" title=" " value="^!" />
+#t=password
+<input type="password" name="^!" title=" " />
+#t=hidden
+<input type="hidden" name="^!" title=" " />
+#t=formimage
+<input type="image" src="^!" border="0" alt=" " />
+#t=file
+<input type="file" name="fil_^!" value="" title=" " />
+#t=font
+<font size="" color="">^!</font>
+#t=table
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+^!
+</table>
+#t=table1
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr>
+	<td>^!</td>
+</tr>
+</table>
+#t=table2
+</table>
+#T=tr1
+<tr>
+	<td>^!</td>
+</tr>
+#T=tr2
+</tr>^!
+#T=tr3
+<tr>
+	^!
+</tr>
+#T=td1
+<td>^!</td>
+#T=td2
+</td>^!
+#T=OBJECT
+<object id="%s" width="^!" height="" classid="clsid:%s">
+</object>
+#T=OBJECT1
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" width="" height="">
+	<param name=movie value="^!">
+	<param name=quality value=high>
+	<param name="wmode" value="transparent" />
+	<embed src="" quality=high width="570" height="70" name="mymoviename" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent"><noembed>Loading...</noembed></embed>
+</object>
+#T=div1
+<div id="^!"></div>
+#T=div2
+<div class="^!"></div>
+#T=dv1
+<div>
+#T=dv2
+</div>
+#T=css
+<style type="text/css">
+	^!
+</style>
+#T=border1
+style="border:1px solid #^!" 
+#T=bdl
+style="border-left:1px solid #^!" 
+#T=bdr
+style="border-right:1px solid #^!" 
+#T=bdt
+style="border-top:1px solid #^!" 
+#T=bdb
+style="border-bottom:1px solid #^!" 
+#T=bkg
+background="^!" 
+#T=bg
+bgcolor="#^!" 
+#T=bd
+border="^!" 
+#T=w
+width="^!" 
+#T=h
+height="^!" 
+#T=al
+align="^!" 
+#T=alr
+align="right" ^!
+#T=all
+align="left" ^!
+#T=alc
+align="center" ^!
+#T=val
+valign="^!" 
+#T=valt
+valign="top"^! 
+#T=valb
+valign="bottom"^! 
+#T=valm
+valign="middle"^! 
+#T=cp
+cellpadding="^!0" 
+#T=cs
+cellspacing="^!0" 
+#T=max1
+maxlength="^!" 
+#T=pad
+style="padding:^!0px 0px 0px 0px" 
+#T=padl
+style="padding-left:^!0px" 
+#T=padr
+style="padding-right:^!0px" 
+#T=padt
+style="padding-top:^!0px" 
+#T=padb
+style="padding-bottom:^!0px" 
+#T=apq
+style="^!;" 
+#T=opt
+<option value="^!"></option>
+#T=timg
+<img src="images/trans.gif" width="100%" height="10" alt=" " />^!
+#T=trans
+<tr><td><img src="images/trans.gif" width="100%" height="10" alt=" " /></td></tr>^!
+#T=trans1
+<tr><td><img src="<?php echo $path; ?>images/trans.gif" width="100%" height="10" alt=" " /></td></tr>^!
+#T=trans2
+<tr><td colspan="2"><img src="<?php echo $path; ?>images/trans.gif" width="100%" height="10" alt=" " /></td></tr>^!
+#T=span1
+<span class="^!"></span>
+#T=col
+colspan="^!" 
+#T=row
+rowspan="^!" 
+#T=if1
+if(^!) {
+	
+}
+#T=ifelse1
+if(^!) {
+	
+}
+else {
+	
+}
+#T=else1
+else {
+	^!
+}
+#T=while1
+while (^!) {
+}
+#T=for1
+for (^!;<;) {
+}
+#T=foreach1
+foreach($arr_^! as $key=>$value) {
+}
+#T=switch1
+switch (^!) {
+case :
+
+}
+#T=do1
+do {
+}
+while (^!);
+#T=cls
+class="^!"
+#T=cls1
+class ^! {
+}
+#T=fun
+function ^!() {
+	
+}
+#T=ph1
+<?php
+	^!
+?>
+#T=php
+<?php ^! ?>
+#T=ech
+echo "^!";
+#T=ech1
+echo $^!;
+#T=my1
+mysql_^!
+#T=query
+mysql_query("^!");
+#T=nrow
+mysql_num_rows($^!);
+#T=myfetch
+mysql_fetcharray($^!);
+#T=gt
+$_GET['^!']
+#T=pt
+$_POST['^!']
+#T=reqt
+$_REQUEST["^!"]
+#T=pth
+<?php echo $path; ?>
+#T=parr
+echo "<pre>";
+echo print_r($^!);
+echo "</pre>";
+#T=hd1
+header("Location:^!");
+#T=vl
+value="^!" 
+#
+;my code starts
+#T=html
+<html>
+	<head>
+		<title>^!</title>
+		<meta name="generator" content="editplus">
+		<meta name="author" content="">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+	</head>
+	<body>
+
+	</body>
+</html>
+#T=mrg
+style="margin:^!0px 0px 0px 0px" 
+#T=mrgl
+style="margin-left:^!0px" 
+#T=mrgr
+style="margin-right:^!0px" 
+#T=mrgt
+style="margin-top:^!0px" 
+#T=mrgb
+style="margin-bottom:^!0px" 
+#T=inc
+include("^!");
+#T=inc1
+include_once("^!");
+#T=ajs
+<a href="javascript:^!();"></a>
+#T=fnts
+font-size:^!px;
+#T=fntf
+font-family:Arial^!;
+#T=fntw
+font-weight:^!;
+#T=lineh
+line-height:^!px;
+#T=txtd
+text-decoration:^!;
+#T=clr
+color:#^!
+#T=linkcss
+<link href="^!.css" rel="stylesheet" type="text/css" />
+#T=linkjs
+<script language="javascript" type="text/javascript" src="^!.js"></script>
+#T=a1
+<a ^!></a>
+#T=sty
+style="^!;"
+#T=stydn
+style="display:none;"^! 
+#T=stydb
+style="display:block;"^! 
+#T=em
+<em>^!</em>
+#T=pval
+value="<?php echo ^!;?>"
+#T=mar
+<marquee>^!</marquee>
+#T=uob
+$userobj->^!
+#T=sqob
+$sqlobj->^!
+#T=sob
+$sesobj->^!
+#T=getvar
+getVariable('^!');
+#T=getvar1
+$userobj->getVariable('^!');
+#T=getquery
+$sqlobj->getdatalistfromquery("^!");
+#T=fetch
+fetchArray($^!);
+#T=fetch1
+$sqlobj->fetchArray($^!);
+#T=query1
+$sqlobj->query("^!");
+#T=selectall
+$sqlobj->query("selct * from ^!");
+#T=ins
+$sqlobj->query("insert into ^! values('')");
+#T=update
+$sqlobj->query("update ^!");
+#T=del1
+$sqlobj->query("delete * from ^!");
+#T=alt
+alert(^!);
+#T=alt1
+alert("^!");
+#T=win
+window.^!
+#T=doc
+document.
+#T=gete1
+getElementById("^!")
+#T=gete
+document.getElementById("^!")
+#T=getv
+document.getElementById("^!").value
+#T=getn
+document.getElementsByName("^!")
+#T=gett
+document.getElementsByTagName("^!")
+#T=arr
+$arr_^!=Array();
+#T=arr1
+var arr_^!=new Array();
+#T=addajax1
+var xmlHttp;
+function ^!() {
+	xmlHttp =GetXmlHttpObject();
+	if (xmlHttp==null) {
+		alert ("Browser does not support Http Request");
+		return;
+	}
+	var url = "get the variable value.php";
+	url=url+"?name="+str;
+	xmlHttp.onreadystatechange=stateChanged;
+	xmlHttp.open ("GET", url, true);
+	xmlHttp.send (null);
+}
+
+function stateChanged () {
+	if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete") {
+		document.getElementById ("txtsugg").innerHTML=xmlHttp.responseText;
+	}
+}
+
+function GetXmlHttpObject() {
+	var objxmlHttp=null;
+	try {
+		objxmlHttp=new XMLHttpRequest();
+	} catch (e) {
+		try {
+			objxmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			try {
+			  objxmlHttp =new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (e) {
+				objxmlHttp =null;
+			}
+		}
+	}
+	return objxmlHttp;
+}
+#T=fun
+function ^!() {
+
+}
+#T=lab
+<label for="">^!</label>
+#T=doc
+document.^!
+#T=gete
+document.getElementById(^!)
+#T=iframe
+<iframe src="^!" name="" id="" frameborder="0"></iframe>
+#

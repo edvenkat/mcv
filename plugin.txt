@@ -1,0 +1,44 @@
+Local Notification cordova plugin :
+	http://plugins.cordova.io/#/package/de.appplant.cordova.plugin.local-notifications
+
+Option :
+    id:         String, // a unique id of the notifiction
+    date:       Date,   // this expects a date object
+    message:    String, // the message that is displayed
+    title:      String, // the title of the message
+    repeat:     String, // has the options of daily', 'weekly',''monthly','yearly')
+    badge:      Number, // displays number badge to notification
+    sound:      String, // a sound to be played (iOS & Android)
+    foreground: String, // a javascript function to be called if the app is running
+    background: String, 
+
+
+Genral :
+========
+id - a unique id of the notifiction
+date - this expects a date object
+message - the message that is displayed
+title - the title of the message
+badge - displays number badge to notification
+sound - a sound to be played
+
+Our Project :
+=============
+id -offer id
+date  - user given date
+message - offer desc.
+title  - discount %
+
+
+http://www.raymondcamden.com/2014/12/11/cordova-example-sending-sms-messages
+
+
+google map plugin :
+https://blog.nraboy.com/2014/10/implement-google-maps-using-ionicframework/
+
+sms :
+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin
+http://stackoverflow.com/questions/6480462/how-to-pre-populate-the-sms-body-text-via-an-html-link
+
+
+https://weblog.west-wind.com/posts/2013/Oct/09/Prefilling-an-SMS-on-Mobile-Devices-with-the-sms-Uri-Scheme

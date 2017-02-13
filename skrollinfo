@@ -1,0 +1,134 @@
+data-start - is the starting point of your entire page, the absolute top, your page’s y-axis = 0.
+data-500-start - is the end and triggers 500 pixels from the very top (start) of the page. 
+
+
+data-top - is new, but it behaves very similar to “data-start" with the difference that “data-start" fires at the absolute top of the document while “data-top" fires when the top of that specific block hits the top of the viewport.
+
+data-600-top - By specifying a number of pixels before the “top" setting we offset the start with that number of pixels. Here we start the animation 600 pixels before this object reaches the top of the current viewport. 
+
+http://labs.enonic.com/articles/animate-your-webpage-with-the-scrollbar
+
+
+https://github.com/Prinzhorn/skrollr
+
+data- 100p : p - Percentage offset 
+
+http://stackoverflow.com/questions/20510538/skrollr-questions-regarding-data-attributes-when-pausing-scrolling
+
+SVG :
+
+http://stackoverflow.com/questions/9353798/svg-support-for-internet-explorer-8-and-below
+
+Sample :
+
+http://prinzhorn.github.io/skrollr/
+
+Tool :
+
+http://editor.method.ac/
+
+
+
+Please ask the team to Experiment / Analyze on the Animation’s smoothness / timings / flows and 
+also how the browser compatible SVG Vector Graphics are implemented, instead of using images. 
+<http://www.beautyofbrewing.com/> 
+<http://everylastdrop.co.uk/> 
+<http://www.noleath.com/noleath/> 
+http://www.soleilnoir.net/believein/#/iOS <http://www.soleilnoir.net/believein/> 
+http://journey.lifeofpimovie.com/#!/mysterious-island <http://journey.lifeofpimovie.com/
+
+
+http://maxwellito.github.io/vivus/
+
+<svg height="100%" width="100%" style='text-align:center;position:absolute;top:0%;'>
+	<circle cx="550" cy="226" r="30" stroke="black" stroke-width="3" fill="red">
+	</circle>
+	<circle cx="548" cy="333" r="30" stroke="black" stroke-width="3" fill="red">
+		<animateTransform attributeName="transform" type="rotate" from="0 540 226" to="360 560 226" begin="0s" dur="10s" repeatCount="indefinite"/>
+	</circle>
+	<circle cx="656" cy="228" r="30" stroke="black" stroke-width="3" fill="red">
+		<animateTransform attributeName="transform" type="rotate" from="0 540 226" to="360 560 226" begin="0s" dur="10s" repeatCount="indefinite"/>
+	</circle>
+	<circle cx="548" cy="127" r="30" stroke="black" stroke-width="3" fill="red">
+		<animateTransform attributeName="transform" type="rotate" from="0 540 226" to="360 560 226" begin="0s" dur="10s" repeatCount="indefinite"/>
+	</circle>
+
+	<circle cx="437" cy="221" r="30" stroke="black" stroke-width="3" fill="red">
+		<animateTransform attributeName="transform" type="rotate" from="0 540 226" to="360 560 226" begin="0s" dur="10s" repeatCount="indefinite"/>
+	</circle>
+</svg> 
+
+http://stackoverflow.com/questions/23353270/can-i-use-different-skrollr-anchor-values-depending-on-the-width-of-the-browser
+http://www.marchettidesign.net/demo/parallax-skrollr-mobile/#beautiful
+http://themes.designova.net/?theme=amaze
+https://github.com/Prinzhorn/skrollr
+http://designhuntr.com/10-best-jquery-parallax-scroll-plugins/
+
+
+https://sourcegraph.com/github.com/Prinzhorn/skrollr
+https://github.com/Prinzhorn/skrollr/issues/461
+http://stackoverflow.com/questions/12341516/javascript-skrollr-update-window-height-based-on-dynamic-content
+http://ww15.caava.elusiveform.com/example.html
+http://stackoverflow.com/questions/18065599/updating-skrollr-dynamically
+
+sampele:http://wickywills.com/testing/skrollr/simple-parallax.html
+
+http://www.script-tutorials.com/demos/13/index.php
+
+http://stackoverflow.com/questions/3380969/cannot-drag-selection-in-jcrop-what-could-break-it
+
+http://stackoverflow.com/questions/5148175/cannot-drag-jcrop-selection-with-the-mouse
+http://www.bitrepository.com/php-how-to-center-a-text-on-an-image-using-gd.html
+http://www.bitrepository.com/php-how-to-center-a-text-on-an-image-using-gd.html
+
+
+
+
+
+
+
+
+http://stackoverflow.com/questions/21945531/jquery-jcrop-how-to-do-a-round-selection-is-it-even-possible
+
+
+http://www.joeyrivera.com/2010/facebook-graph-api-app-easy-w-php-sdk/
+
+
+if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
+   cordova.plugins.Keyboard.show(); //open keyboard manually
+}
+
+
+
+
+
+Project : BigJonSports
+Client : USA
+Environment : Core PHP
+Role : 
+url : https://www.bigjon.com/
+
+Brief description of the project:
+
+Big Jon Sports is a leader in the trolling world with their full line of downriggers, rod holders, and electronics mounts. They have a family atmosphere within the company, however they are big boys in the sport fishing world.
+
+
+Project : BigJonSports
+Client : USA
+Environment : HTML & Jquery
+Role : 
+url : http://servcentre.in/
+
+Brief description of the project:
+
+Project : constellationspecial
+Client : USA
+Environment : HTML & Jquery
+Role : 
+url :
+https://www.constellationspecial.com/
+https://www.constellationaffinity.com/
+
+
+Brief description of the project:
+Constellation, an Exelon company, is a leading competitive supplier of power, natural gas and energy products and services for homes and businesses across the United States and Canada.

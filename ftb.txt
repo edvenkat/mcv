@@ -1,0 +1,877 @@
+ALTER TABLE `tbl_booking_court_details`  ADD COLUMN `booking_main_court_id` INT(11) NOT NULL AFTER `slot_end_datetime`;
+ALTER TABLE `tbl_booking_court_details`  ADD COLUMN `booking_main_court_id` INT(11) NOT NULL DEFAULT '0' AFTER `slot_end_datetime`;
+
+
+SELECT DISTINCT GenericColorExterior,`cron_type` FROM tbl_vehicles where GenericColorExterior!='' ORDER BY GenericColorExterior ASC
+SELECT DISTINCT GenericColorExterior,`cron_type` FROM tbl_vehicles where GenericColorExterior!='' ORDER BY `cron_type` ASC
+
+
+
+latest FTP:
+sgiproject.com
+User/Pass:
+sgiproject/Ser!ousGame5
+ 
+
+
+
+ Sportsbru New server details :
+ -----------------------------
+https://www.sportsbru.co/php_live/cron/data_archeive_cron.php
+https://www.sportsbru.co/php_live/cron/booking_cancel_cron.php
+
+
+
+https://mya.godaddy.com/
+Username/Password : SPORTSBru Enterprise/Sportsbru123
+
+Sportsbru11015,.!
+
+
+user: sportsbr_live
+pass: wafiahmad@2016
+db : sportsbr_live
+
+FTP details
+------------
+107.180.70.29
+baskar@sportsbru.co
+Ent@rpr15@
+
+define("_HOSTNAME", "localhost");
+	define("_USERNAME", "sportsbro");
+	define("_PASSWORD", "wafiahmad@2016");
+	define("_DATABASE", "sportsbr_live");
+
+
+ Maktab duli Login:
+http://sportsbru.co/admin/manage_venue.php
+venue5/hpZnTKYX
+
+
+Sports Bru FTP details:
+Host: sportsbru.co
+Username/Password : wafiahmad/r)Kj9xy1upmR
+
+
+ Another FTP Login:
+Host: sportsbru.co
+Username/Password: wafiftp@sportsbru.co / wafiahmad
+
+define("_HOSTNAME", "localhost");
+	define("_USERNAME", "wafiahma_new");
+	define("_PASSWORD", "wafiahmad");
+	define("_DATABASE", "wafiahma_sportsbru_new");
+
+https://www.tools4noobs.com/online_tools/unix_timestamp_to_datetime/
+
+https://gator2019.hostgator.com:2083
+Username: wafiahmad
+Domain: sportsbru.co
+Password: r)Kj9xy1upmR
+
+
+SportsBru control panel:
+https://gator2019.hostgator.com:2083
+Username: wafiahmad
+Password: r)Kj9xy1upmR
+New Pass : Logitech22016,.
+Leviathan160
+
+
+Life is "Take Care" and "Don't Care"
+Take it with easy.....Face everything with smile(EEEEEEEEEEEEEEEEEE).one day u ll find it meaningful.
+..........Felling Unhappy.........Few Peoples still call me as "Selfish"
+Let's work together for a Digital India
+Let's work together for a Digital India
+
+BUT WITHOUT THE DARK WE WOULD NEVER SEE THE STARS
+
+I act like I don't care, But deep inside It hurts.....
+
+"We are NOTHING in front of NATURE".
+
+********** HereAfter I Act Like "Selfish" **********
+
+Y:\Projects2015\Jon\App\bluekai-android-sdk-master\bluekai-android-sdk-master\sdk\src\com\bluekai\sdk
+
+set path=C:\Java\jdk1.7\bin
+
+C:\Users\Venkatesh.G\Documents\venkatesh\java_sample
+
+C:\Users\Venkatesh.G\Desktop\java_sample
+
+http://www.msn.com/en-in/sports?ocid=iehp
+
+http://jsfiddle.net/masondesu/haxvL/
+https://www.visistat.com/login.php?f=1
+ 
+comcastspecial.com / Sonydog1
+ 
+angpools
+Angp001s
+
+
+ https://www.terencenet.com:8443
+User: admin
+Pw: S@ints#551!
+
+
+ Host:angpools.com
+user/pass:angpools1/sWd&04f0
+
+   abshirokids.com
+abshirokids1
+Co2NtnG0uRk!D$
+
+CMJ (Ruby);
+============
+Host name: 207.150.198.106
+admin username: jacob 
+password: b4j^#=gw\XLN%xuVsROv
+ 
+ 
+VMvare :
+ 
+VPN and VMware : 7raEAT~1!!
+ 
+ 
+Skype :
+===========
+Id : vadivelvins
+Password: asd48fgf
+ 
+ 
+Lakewoodre FTP :
+================
+207.97.239.32
+lakewoodre
+Lkw#Re1!789@!!
+ 
+ 
+FundMazer.com :
+===============
+ftp.fundmazer.com
+fundmazer
+jw4web!
+ 
+ 
+Skype details:
+=========================
+baskar.vins / asd48fgf
+vadivelvins / ultra_457
+ 
+ 
+Heritage Culture Camp FTP - Information :
+========================================
+heritageandculturecamp.org
+hericucamp / Kml#4web1!
+ 
+ 
+ 
+Sage API:
+==========
+http://www.sagepay.co.uk/support/test-your-integration/log-in-to-test-my-sage-pay
+ 
+ 
+Kids:
+=======
+http://www.ipower.com/controlpanel/beta/
+Thekidsd
+Smile1976#
+ 
+ftp.thekidsdentistonline.com
+Thekidsd
+Smile1976#
+ 
+Magazine Address Change :
+========================
+magazineaddresschange.com 
+magaddrchg1 
+kml4web!
+ 
+ 
+Lakewoodre.com
+=============
+ 
+lakewoodre.com
+lakewoodre
+kml4web!
+ 
+Tresureworld :
+===============
+ 
+IP Address: 162.243.249.131
+User: tww
+Password: Tlix5bL2&T%f
+ 
+ 
+MCA Visistat Login:
+===============
+ 
+https://www.visistat.com/login.php?f=1
+Sonydog1
+ 
+Poinsetia Groves :
+=================
+https://www.poinsettiagroves.com/admin/login.php
+Login name / Password : psetgroves / Awep41!
+ 
+poinsettiagroves.com 
+poinsettia / Ttwepb0!
+ 
+Authorize.net Login:
+-------------------
+Poinsettia47
+$prinG2014
+ 
+ 
+ 
+ISA Corporation:
+================
+ 
+ftp.isa-corporation.com
+user: isacorp1
+pw: Kml#4web1!
+ 
+Angpools:
+==========
+ftp.angpools.com
+angpools
+Kml#4web1!
+ 
+ 
+Richardson Charts:
+ftp.richardsonscharts.com
+User: richardsons
+Pw:Kml#4web1!
+ 
+Treasurecoastsemi
+===============
+ 
+ftp.treasurecoastseminoleclub.com
+tcseminoles1
+G0#Nole3s1!
+ 
+ 
+Vinsinfo :
+========================
+115.112.232.24
+vinsinfo / VI#092008
+
+
+define("_HOSTNAME", "localhost");
+define("_USERNAME", "vinsinfo_live");
+define("_PASSWORD", "PassWord@123");
+define("_DATABASE", "vinayakinfotech_vinsinfo");
+define("ADMIN_EMAIL_ADDRESS", "selamat@vinsinfo.com");
+
+v!ns2016
+
+    Host: 115.112.232.24
+//vinsinfosg.com
+vinsinfosg
+sg#80/96vinS
+
+
+Big Jon Sports:
+==============
+ 
+FTP
+----
+bigjon.terencenet.net
+bigjon1
+Kml#4web1!
+ 
+
+ BGJ$p0r7SAmerMa63
+
+CONTROL PANEL
+------------
+https://www.terencenet.com:8443
+vinsinfo@bigjon.com
+Kml#4web1!
+ 
+Over all Admin Login :
+========================
+https://www.terencenet.com:8443
+User: admin
+Pw: S@ints#551!
+ 
+Date Base : 
+===========
+
+https://www.terencenet.com:8443/
+User: admin
+Pw: S@ints#551!
+ 
+Sage Payment Solution:
+----------------------
+Email : tchannon@terencenet.com
+Password : Kml4web!
+VTID: 335286192576
+MKey: O9W7H3N8S5P5
+ 
+Superheat:
+============
+s179556.gridserver.com
+FTPetro@superheatfgh.com 
+rKf2j1&4
+ 
+I love My waitress :
+====================
+ftp.ilikemywaitress.com
+user: ilikemyw1
+pw: Kml#4web1!
+
+Control Panel
+https://www.terencenet.com:8443
+user: ilikemywaitress.com
+pw: Kml#4web1!
+ Facebook:
+ Vins
+  username : vins.team@gmail.com 
+password : v1n5t9@m <mailto:v1n5t9@m>
+
+
+
+Terence FB login:
+Username : facebook@ilikemywaitress.com
+Password : ILMW#1!
+ILMW#1!
+
+user: tchannon@terencenet.com
+pw: ILMW#1!
+
+username : vins.team@gmail.com 
+password : v1n5t9@m <mailto:v1n5t9@m>
+
+
+
+
+Abshirokids:
+=============
+abshirokids.com
+abshirokids1
+Akid5web!
+ 
+Grimsac :
+=========
+FTP:
+----
+ftp.grimesacinc.com
+grimesac1 / C9@c!!gr
+ 
+Plesk:
+-----
+https://www.grimesacinc.com:8443
+grimesacinc.com
+kml4web!
+ 
+Databse :
+---------
+Database - Information
+Username : grimesacinc_new
+Password : c9@c!gr
+Database : grimes
+ 
+Mychange Address :
+===================
+jay.whiddon@bridgevine.com   4sonyviz!
+ 
+VmWare :
+===========
+Username: bizdev
+Password : 7raEAT#3!!!
+ 
+Host:drop.bridgevine.com
+User : bizdev 
+Pass : Bridgevine#123!
+ 
+ 
+ 
+Vero Beach Polo Grounds :
+============================
+ 
+ftp.verobeachpologrounds.com
+User: vbpologrounds
+Pw: Kml#4web1!
+ 
+ 
+https://www.terencenet.com:8443
+user: admin@verobeachpologrounds.com
+pw: Kml#4web1!
+ 
+ 
+
+ Houston
+============
+Host address    :    70.32.81.233
+Username    :    houstonauto
+Password    :    Hou$ton7176!
+ 
+ 
+https://70.32.81.233:8443/login_up.php3
+haw@houstonautoweb.com / Fbtu$462
+
+https://70.32.81.233:8443/login_up.php3
+haw@houstonautoweb.com / Fbtu$462
+
+
+ISA Corporation :
+=====================
+ftp.isa-corporation.com
+user: isacorp1
+pw: Kml#4web1!
+ 
+ 
+Cravingsbymail.com :
+=======================
+ 
+cravingsbymail.com
+cravings / kml4web!
+ 
+
+http://www.managementcontrols.com/
+
+MGT controls control panel:
+==========================
+URL: https://ac.mediatemple.net/login.mt
+UID: asalim@mccorp.com
+PWD: MCi#20141011
+
+
+  http://mccorp.com.s197658.gridserver.com/blog/wp-admin
+Username / Password : Management Controls / m@c0rp1!2#
+
+
+FTP Details: 
+===========
+s197658.gridserver.com
+petropages@mccorp.com
+P3TR0p@g3$!
+
+Admin Login Details:
+===================
+Live ->  admin/Tr@ck$oftware
+Tr@cksoftware  client
+local -> admin/mgt
+http://192.168.2.30/management-controls/mccorp/
+http://192.168.2.30/management-controls/mccorp/admin
+ 
+==============================================================================================================================================================================
+ESQ :
+=====
+ 
+http://www.esqrecruiting.com:2082/frontend/x3/index.html
+new password: esqrec5/esqrecvk1973!
+ 
+Admin username/password
+Vidalvk64! / Ella1973!?
+ 
+esqrecruiting.com
+esqrec5
+esqrecvk1973!
+ 
+define("MYSQL_HOST", "192.168.0.19");
+define("MYSQL_BASE", "esqrecruiting");
+define("MYSQL_USER", "root");
+define("MYSQL_PASS", "");
+define("MYSQL_PREFIX", "esq_");
+ 
+ 
+ 
+ 
+ 
+C:\Ruby193\lib\ruby\gems\1.9.1\gems\sqlite3-1.3.9-x86-mingw32
+---------------------
+Best Regards,
+Vadivel K
++917845255621
+
+
+
+http://forum.ionicframework.com/
+
+venkat
+venkatesh.g@vinsinfo.com(email)
+venkateshas(password)
+
+
+Vinsinfo.com:
+--------------
+115.112.232.24
+vinsinfo
+VI#092008
+
+http://www.vinsinfo.com/queryanalyser.php
+
+ define("_HOSTNAME", "vinswebsite.db.6217324.hostedresource.com");
+define("_USERNAME", "vinswebsite");
+define("_PASSWORD", "PassWord@123");
+define("_DATABASE", "vinswebsite");
+define("ADMIN_EMAIL_ADDRESS", "selamat@vinsinfo.com");
+
+9134675
+
+
+https://developers.google.com/analytics/devguides/reporting/core/v3/reference#segment
+
+https://ga-dev-tools.appspot.com/explorer/
+
+https://www.google.com/analytics/web/?hl=en#management/Settings/a24934080w48565812p92759595/%3Fm.page%3DGoals%26m-content-goalList.rowShow%3D10%26m-content-goalList.rowStart%3D0%26m-content-goalList.sortColumnId%3Dname%26m-content-goalList.sortDescending%3Dfalse/
+
+ teameverestindia.org
+teameverestIndia@teameverestindia.org/TeamEverest
+
+
+.net with php :
+----------
+
+http://109.203.97.63/emails/queryanalyser.php
+server : localhost
+user Name : root
+password : 9uqpJk$39!
+database : concrete_db
+
+http://www.script-tutorials.com/html5-image-uploader-with-jcrop/
+
+https://books.google.co.in/books?id=vLu4VRYpSmUC&pg=PA358&lpg=PA358&dq=get+text+width+based+on+font+size+php&source=bl&ots=jUwGmOEm6o&sig=u313sYek1q731CrXE6NDO8OGj5Q&hl=en&sa=X&ei=J7-zVK3UIci4uATt84FA&ved=0CE8Q6AEwCA#v=onepage&q=get%20text%20width%20based%20on%20font%20size%20php&f=false
+
+http://papermashup.com/php-gd-generate-an-image-with-text-and-font-embedding/
+
+
+username : vins.team@gmail.com 
+password : v1n5t9@m <mailto:v1n5t9@m> 
+
+http://instagram.com/
+vinsteam/pass@2014
+
+
+http://www.mauriciocuenca.com/blog/2011/02/instagram-api-implementation-in-php/
+
+http://techmonks.net/instagram-using-the-api/
+http://codular.com/oauth-authentication-with-instagram
+
+https://gist.github.com/jonathanmoore/2640302
+
+
+
+APP ACCOUNT Information :
+https://developer.apple.com/account/ios/certificate/certificateList.action?type=distribution
+Url: https://developer.apple.com
+Username: kamal@vinsinfo.com
+Password: Vins@1998
+
+
+Wafi Ahmad: username: sportsbru.ent@gmail.com
+password: Admin1234,.
+ 
+
+
+select tbl_store.name,tbl_store_address.address_id from tbl_store as tbl_store inner join tbl_store_address as tbl_store_address on FIND_IN_SET(tbl_store_address.address_id,tbl_store.address_id) where tbl_store.store_id=6
+
+Host name : 203.175.171.50
+Username : ftpsgi@sgi-singapore.com
+Password : LC4,m#7HRDW%
+
+Temasek Cpanel Details:
+http://www.sgi-singapore.com:2082/
+User/Pass:sgisinga/old password : SGI!agp2w&p   new password : Ser!ousGame5
+
+Use Database name: sgisinga_temasek2
+[4:20:38 PM] <Rukmani R>
+ Cpanel login details:
+http://sgiproject.com/cpanel
+user/pass:sgiproject/Ser!ousGame5
+
+
+	
+Home page
+	- We need to add the button for rest search.
+Restaurant Search Page
+	- We need to display the rest from factual API.
+	- add the button Follow/ Who Works Here / I Work Here on right side.
+	- Follow lets user follow the venue
+	- Who Works Here --- list server
+	- I Work Here –-- added rest to our server
+	
+Server Dashboard / Profile
+	- remove \ from rest name.
+	- Invite Friends to Follow You/Use the App (refer from the moveparty)
+	- Send Notifications 
+		create , edit and delete option for offer and Send Your Followers a Special Offer
+	- Invite Your Followers to Come See You - Opt to share this to Facebook timeline for other friends
+	- we need to display rest information as bullet like the following format [RESTAURANT NAME], [Street Address, City, State, ZIP] and link to corresponding rest.
+	- Average Tip
+		add their tips with date, total amount of bill and tip amount
+		we need to provide the option for Diners to add the tip for specific server When a diner visits a server’s profile?
+		Would you like to share how much you tipped [FIRST NAME OF SERVER]
+	- Server should be able to see who their followers are using a similar layout (with the name and small photo) as MoveParty
+
+Come See Me
+	- For Come See Me, let’s just have the user specify the date (not the time) – this will make it easier.
+	- completed: It should be linked to the server’s schedule and when they work (e.g., if server only works Mondays, then only Mondays should be selectable from the calendar/list)
+	- For the notification, can we replace date format MM/DD/YYYY with things like “today”,  “tomorrow” and “[DAY], [MONTH], [DATE], [YEAR]” (e.g., Thursday, March 26, 2015)
+	- 
+	
+Come See Me
+	- For the notification we need to replace the date format.
+	- The user can opt to ‘share’ this activity to Facebook timeline and their friends
+
+Restaurant Search
+	- search with restaurant name and specify either city/state or zip code (instead of location)
+
+Restaurant Profile
+	Questions:
+	1. Please help with get Friend list from facebook.
+	2. Does Facebook App Invites work here?
+	3. Send Your Followers a Note
+
+Ratings:
+	1. We need to allow the user can give rating 1 time per day for server. 
+	We want to expand and allow a user to rate a server multiple times (limit 1 rating per service day)
+Date of Service
+Rating (0-5 stars)
+Comments
+
+Ratings
+ - user to rate a server multiple times 
+		Date of Service
+		Rating (0-5 stars)
+		Comments
+
+
+
+	Assumption:
+	1. We need to provide the below option for offer details.
+	a) Offer name
+	b) Offer Image
+	c) Offer Description
+	d) Offer Start and End date
+	2. Come see me - Just we need to post the details in FB User's timeline.
+	3. Notification - We need to send offer details for specific followers / all.
+	4. Invitation - Send details to selected follower list / all.
+	5. We need to update the location search  to restaurant name and specify either city/state or zip code instead of location on Search Restaurent and search server pages.
+	6. 
+	http://stackoverflow.com/questions/23514157/using-share-open-graph-facebook-ui-to-create-dynamic-share-dialog-for-quiz-res
+
+
+
+
+http://stackoverflow.com/questions/21052320/how-to-publish-a-custom-story-on-my-feed-via-my-fb-app
+
+http://www.i-visionblog.com/2014/03/creating-facebook-custom-stories-for.html
+http://stackoverflow.com/questions/17833935/facebook-open-graph-custom-stories-and-custom-objects-with-js-sdk
+
+
+Apple id : marc@pyramidsol.com
+pass: tupac1
+
+
+Come see me
+  content : 'I am going to see Server Name at Rest Name at Date'
+  link : waitress profile.
+Offer
+  content : 'I just sent a special offer for Offer_Name at Restaurant Name.  If you want to get these offer, please follow me on I Like My Waitress '
+  link : home page.
+Restaurant Share
+  content : 'display the res infomation like name, address and phone number'
+  link : restaurant page.
+
+
+https://developers.facebook.com/tools/debug/og/object/
+
+
+https://stemkoski.github.io/Three.js/
+
+https://stemkoski.github.io/Three.js/models/android-animations.js
+
+https://stemkoski.github.io/Three.js/Model-Animation-Control.html
+
+
+http://flash.flowplayer.org/documentation/api/index.html
+
+
+http://support.jwplayer.com/customer/portal/articles/1403653-browser-device-reference
+http://support.jwplayer.com/customer/portal/topics/564475-javascript-api/articles?page=1
+http://support.jwplayer.com/customer/portal/articles/1439375-example-linking-to-a-time-offset
+http://support.jwplayer.com/customer/portal/articles/1439346-example-resizing-the-player
+
+https://developers.google.com/chart/interactive/docs/gallery/geomap#markers-example
+
+https://developers.google.com/maps/documentation/javascript/styling
+
+
+http://stackoverflow.com/questions/9982907/detect-mobile-devices-and-tablet-devices
+
+
+Travel Claims :
+==============
+
+Splash screen.
+Login section - Sign-in / Register.
+Home - Start a trip && Trip History.
+Start a Trip - Map.
+Trip History - list of history.
+
+
+http://www.raywenderlich.com/86521/how-to-make-a-view-controller-transition-animation-like-in-the-ping-app
+http://www.tutorialspoint.com/swift/swift_access_control.htm
+http://docs.grabaperch.com/video/swift-migrations/
+http://ios-blog.co.uk/swift-tutorials/
+http://natashatherobot.com/watchkit-page-based-navigation/
+
+
+https://www.google.co.in/?gfe_rd=cr&ei=FbJCU6GxEsXM8gesuICQDg#q=infobox.js
+http://jsfiddle.net/jehj3/597/
+http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js
+
+
+ALTER TABLE `tbl_customer_locations`  CHANGE COLUMN `lang` `latitude` VARCHAR(255) NOT NULL AFTER `display_content`,  CHANGE COLUMN `lon` `longitude` VARCHAR(255) NOT NULL AFTER `latitude`;
+
+
+
+http://jsfiddle.net/henrichro/mqrrA/
+
+
+Sir, 
+	Thanks for the opportunity and support provided for me for the past three years. I would like to inform you that I am planning to relieve from our organization . So, Please consider this email as my resignation letter and let me know your thoughts on this and my date of relieving. 
+
+
+jQuery :
+========
+1. 147-jQueryNotes
+2. 275-JavaScript-Essentials-a-Keyhole-Software-Tutorial
+No need :
+---------
+essential_javascript_--_a_javascript_tutorial
+Javascript_course
+javascript-core
+******************************************************************
+Andriod information :
+====================
+1. 242-Winter 2014 Android Tutorial
+******************************************************************
+D3 :
+===
+1. 273-10_D3_Tutorial
+2. 274-D3js_MEAP_CH01
+******************************************************************
+webdesign
+=========
+1. 279-Responsivewebdesign
+2. 280-A-Guide-to-HTML5-and-CSS3
+3. css_completecourse
+4. HTML_quickref
+No need 
+--------
+basic-css-tutorial
+CSS Crash Course
+cssintro
+html_crashcourse
+Responsive Web Design in APEX
+******************************************************************
+AngularJS
+=========
+1. 295-AngularJSIn60MinutesIsh_DanWahlin_May2013
+2. Getting-Started-with-AngularJS
+******************************************************************
+xhtml :
+======
+1. xhtml-crashcourse
+2. xhtml-tutorial
+3. xhtml-webpages
+******************************************************************
+
+
+ Saltmines
+=========
+ftp.saltminesgroup.com
+saltmines1
+Kml#4web1!
+
+
+http://www.vinsinfo.com/sports_bru/php_new/pushNotification/index_ios.php
+http://www.vinsinfo.com/sports_bru/php_new/pushNotification/curl_push_ios.php?push_message=newnewpush&regId=mmHMcmsMr_A:APA91bFkqS6Z6JzdCy4HSAYNGyWKy1fhiU8l7jYU9XQ7FULKuEj7eS2kCyY2n547tz1QsQe7a7wzamzMmlrFlb1wMJPbq9tSNv5i0IQd6U5e1kdaMAIdHgVtFGHeoySX9oy-DLEZ1mIh1
+select * from tbl_push_notification_status order by notification_id desc limit 10
+
+
+Updated files
+-------------
+/httpdocs/sports_bru/php_new
+index.php
+
+new files
+----------
+/httpdocs/sports_bru/php_new/routes
+register_ios.php
+
+
+1. loading image landscape
+2. Contact us link
+3. Thanks page code
+4. cancel booking 
+5. On click push notification
+
+
+select student.student_id,student.student_number,student.class,student.level,student.name,student.CCA,student.student_leader,student.tee_size,question_set.set_id,evaluation.* from student_2016 as student inner join evaluation as evaluation on evaluation.s_id=student.student_id join question_set as question_set on evaluation.set_id!=question_set.set_id 
+
+
+select question_set.set_id,evaluation.* from question_set as question_set  join evaluation as evaluation  on evaluation.set_id=question_set.set_id 
+
+select DISTINCT student.student_id,student.student_number,student.class,student.level,student.name,student.CCA,student.student_leader,student.tee_size,question_set.set_id from student_2016 as student inner join 
+
+INSERT INTO `evaluation` (`s_id`, `t_id`, `set_id`, `EQ01`, `EQ02`, `EQ03`, `EQ04`, `EQ05`, `EQ06`, `EQ07`, `EQ08`, `EQ09`, `EQ10`, `EQ11`, `timestamp`, `comment`, `inserted_date`, `period`) VALUES ('BBB101', 'BBB101', '2', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', '', '1461236440', '', '21/04/2016 10:02:25 PM', 0);
+
+
+
+select tbl_bank.bank_id,tbl_bank.name,tbl_card_category.name from tbl_bank as tbl_bank inner join tbl_card as tbl_card on tbl_bank.bank_id=tbl_card.issued_by inner join tbl_card_category as tbl_card_category on tbl_card.card_category_id=tbl_card_category.card_category_id
+
+
+select distinct tbl_card.name as cardName,tbl_card_category.name as cardType,tbl_bank.name as BankName,tbl_bank.bank_id from tbl_card_category as tbl_card_category  inner join tbl_card as tbl_card on tbl_card_category.card_category_id =tbl_card.card_category_id inner join tbl_bank as tbl_bank on tbl_card.issued_by=tbl_bank.bank_id order by bankName,cardType
+
+
+select tbl_offer.offer_id,tbl_store.name as store_name,tbl_store_address.city,tbl_offer_store.store_id,tbl_store_address.latitude,tbl_store_address.longitude from tbl_store as tbl_store inner join tbl_store_address as tbl_store_address on tbl_store_address.store_id=tbl_store.store_id inner join tbl_offer_store as tbl_offer_store on tbl_offer_store.store_id=tbl_store.store_id inner join tbl_offer as tbl_offer on tbl_offer.offer_id=tbl_offer_store.offer_id where tbl_offer.is_active=0 and DATEDIFF(DATE(FROM_UNIXTIME(tbl_offer.offer_start_date)),CURDATE())<=0 and DATEDIFF(DATE(FROM_UNIXTIME(tbl_offer.offer_end_date)),CURDATE())>=0 and tbl_store_address.latitude<
+
+
+select distinct tbl_card.name as cardName,tbl_card_category.name as cardType,tbl_bank.name as BankName,tbl_bank.bank_id from tbl_card_category as tbl_card_category  inner join tbl_card as tbl_card on tbl_card_category.card_category_id =tbl_card.card_category_id inner join tbl_bank as tbl_bank on tbl_card.issued_by=tbl_bank.bank_id order by bankName,cardType
+
+
+SELECT distinct tbl_card_category.card_category_id,tbl_card_category.name FROM tbl_card_category as tbl_card_category inner join tbl_card as tbl_card on tbl_card_category.card_category_id=tbl_card.card_category_id where tbl_card.issued_by=4 order by tbl_card_category.name asc 
+
+select tbl_offer.offer_id,tbl_store.name as store_name,tbl_store_address.city,tbl_offer_store.store_id,tbl_store_address.latitude,tbl_store_address.longitude from tbl_store as tbl_store inner join tbl_store_address as tbl_store_address on tbl_store_address.store_id=tbl_store.store_id inner join tbl_offer_store as tbl_offer_store on tbl_offer_store.store_id=tbl_store.store_id inner join tbl_offer as tbl_offer on tbl_offer.offer_id=tbl_offer_store.offer_id where tbl_offer.is_active=0 and DATEDIFF(DATE(FROM_UNIXTIME(tbl_offer.offer_start_date)),CURDATE())<=0 and DATEDIFF(DATE(FROM_UNIXTIME(tbl_offer.offer_end_date)),CURDATE())>=0 and tbl_store_address.latitude<13.0287 
+
+
+
+Apple id : marc@pyramidsol.com
+pass: tupac1
+
+
+JOSHUA.HEE14
+
+PG0136458N
+
+
+TEMASEK
+
+
+
+Assess
+Report
+Edit Profile
+Change Password
+Exit
+
+
+
+Assess
+Report
+Exit
+
+
+Assess
+Report
+Edit Comments
+Change Password
+Exit

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Diesel Exhaust Fluid FAQ - Transliquid Technologies, LLC</title>
+		<meta name="keywords" content="Diesel Exhaust Fluid FAQ">
+		<meta name="description" content="Q. What is Diesel Exhaust Fluid (DEF)? A. DEF is the reactant necessary for the functionality of the SCR system. It is a carefully blended aqueous urea solution of 32.5% high purity urea and 67.5% DI water.">
+		<meta name="author" content="www.petropages.com/creative/">
+		<meta name="geo.region" content="US-TX" />
+		<meta name="geo.placename" content="Spring" />
+		<meta name="geo.position" content="30.126766;-95.439211" />
+		<meta name="ICBM" content="30.126766, -95.439211" />
+		<?php include_once("header.php"); ?>
+		<script>
+		$(document).ready(function() {
+			$(".faq_design li").click(function() {
+				if($(this).css('background-image').search("collapse_arrow_2.png")==-1) {
+					//alert('hai');
+					$("ul.faq_design li").css('background','url("assets/images/collapse_arrow_1.png")  no-repeat 99% 6px #e6e6e6');
+					//$(this).css('background','url("assets/images/collapse_arrow_2.png")  no-repeat 99% 6px #e6e6e6');
+					$(".faq_design li ul").slideUp();
+				}
+				
+				var str=$(this).css('background-image');
+				if(str.search("collapse_arrow_1.png")==-1) {
+					$(this).css('background','url("assets/images/collapse_arrow_1.png") no-repeat 99% 6px #e6e6e6');
+					$(this).find("ul").slideUp();
+				} else {
+					$(this).css('background','url("assets/images/collapse_arrow_2.png") no-repeat 99% 6px #e6e6e6');
+					$(this).find("ul").slideDown();
+				}
+				
+			});
+			
+		});
+		</script>
+		<article id="post" class="hentry">
+			<div class="breadcrumb">
+				<ul>
+					<li>DEF FAQ</li>
+				</ul>
+			</div>
+			<header class="entry-header">
+				<!-- <h1>DEF FAQ</h1> -->
+				<h2>Diesel Exhaust Fluid FAQ</h2>
+			</header>
+			<ul class="faq_design">
+				<li>What is Diesel Exhaust Fluid (DEF)?
+					<ul>
+						<li>A. DEF is the reactant necessary for the functionality of the SCR system. It is a carefully blended aqueous urea solution of 32.5% high purity urea and 67.5% DI water.</li>
+					</ul>
+				</li>
+				<li>What is urea?
+					<ul>
+						<li>A. Urea is a compound of nitrogen that turns to ammonia when heated. Urea has important uses as a fertilizer and feed supplement, as well as a starting material for the manufacture of plastics and drugs. It is a colourless, crystalline substance that melts at 132.7&deg; C (271&deg; F) and decomposes before boiling.</li>
+					</ul>
+				</li>
+				<li>How does DEF work within a SCR system?
+					<ul>
+						<li>A. The SCR technology treats gas exhaust downstream of the engine.  Small quantities of DEF is injected into the exhaust stream and when mixed with the NOx, it changes into harmless nitrogen and water.</li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li></li>
+					</ul>
+				</li>
+
+			<ul>
+			<div class="clear20"></div>
+		</article>
+		<?php include_once("footer.php"); ?>

@@ -1,0 +1,376 @@
+ App :
+----------
+1. IOS Native Language.
+2. Latium - Javascript Based Environment.
+     - Convert into objective C or java.
+3. Web-kit browser.
+     - Open default browser and remove all menu and tool bar.
+
+
+We have need to study
+     1. Phonecap - Provide the browser and other functionality.(like Plugin,etc......)
+     2. Ionic Framework - Used for design.
+     3. Angular js - Backend functionality.
+
+https://docs.angularjs.org/api/ngAnimate
+http://www.sitepoint.com/javascript-animations-angularjs-applications/
+http://www.yearofmoo.com/2013/04/animation-in-angularjs.html
+
+http://www.ng-newsletter.com/posts/angular-animation.html
+
+
+http://codepen.io/shprink/pen/BxufK
+
+
+http://coenraets.org/blog/2014/04/sociogram-angularjs-ionic-facebook/
+
+Url to study :
+-------------
+
+Angular js : https://docs.angularjs.org/tutorial
+
+Pdf :
+     http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf
+
+Location information :
+   https://docs.angularjs.org/guide/$location
+
+Ionic Framework : http://ionicframework.com/docs/
+
+Local Database :
+---------------
+
+Url : http://www.tutorialspoint.com/html5/html5_web_sql.htm
+
+JSON Validator url :
+--------------------
+
+http://jsonlint.com/
+http://www.bodurov.com/JsonFormatter/
+
+Upload Image using Angular Js :
+------------------------------
+
+http://stackoverflow.com/questions/18754943/preview-image-before-uploading-angularjs
+
+
+http://stackoverflow.com/questions/24569270/preload-background-image-using-angularjs-promises
+
+Other My reference :
+------------------
+
+1. Main page in codepen : http://codepen.io/ionic/tag/ionic/2/
+2. angular js : http://blog.hfarazm.com/angularjs-tutorials/
+
+3. Database reference :
+http://stackoverflow.com/questions/22717298/populate-phonegap-sqllite-database-with-json-array
+http://stackoverflow.com/questions/18045552/js-jquery-create-multi-dimensional-array-or-json-structure-out-of-heading-el
+
+4 .Json parser:
+http://www.w3schools.com/json/tryit.asp?filename=tryjson_eval
+http://www.w3schools.com/js/tryit.asp?filename=tryjs_json_parse
+
+5. ng-reapeat key and value:
+http://justinklemm.com/angularjs-filter-ordering-objects-ngrepeat/
+
+6. Json format : http://stackoverflow.com/questions/8012721/json-parse-single-quote-inside-name.
+
+
+Date diff : http://stackoverflow.com/questions/15298663/how-to-subtract-two-angularjs-date-variables
+
+/*var currentdate=new Date();
+var leftdays=movedate-currentdate;
+var millisecondsPerDay = 1000 * 60 * 60 * 24;
+console.log(leftdays);
+$scope.days=leftdays / millisecondsPerDay;*/
+
+/*$scope.firstdate = '01/01/2013';
+$scope.seconddate = '10/01/2013';
+$scope.data_before = [];
+$scope.differenceInDays = function() {
+
+var dt1 = $scope.firstdate.split('/'),
+dt2 = $scope.seconddate.split('/'),
+one = new Date(dt1[2], dt1[1], dt1[0]),
+two = new Date(dt2[2], dt2[1], dt2[0]);
+
+var millisecondsPerDay = 1000 * 60 * 60 * 24;
+var millisBetween = two.getTime() - one.getTime();
+var days = millisBetween / millisecondsPerDay;
+
+return Math.floor(days);
+};*/
+
+
+http://www.nganimate.org/angularjs/ng-repeat/move
+
+
+http://coenraets.org/blog/2014/02/sample-mobile-application-with-ionic-and-angularjs/
+
+
+1. Vinsinfo Checklist - ( Checklist and Remainder)
+
+	a) First Version :
+
+		Neded to provide an option to the user to create new activity and checklist unde
+
+		https://github.com/katzer/cordova-plugin-local-notifications#retrieve-the-ids-from-all-currently-scheduled-local-notifications
+
+	b) Data Sync with server
+	c) FB and Google login
+
+2. Restaurant App
+
+3. Price App / Report chart (Google Analytics)
+
+
+create modal dialog : http://adamalbrecht.com/2013/12/12/creating-a-simple-modal-dialog-directive-in-angular-js/
+
+
+
+toggle : http://jsfiddle.net/witoldsz/wCMdK/
+
+
+curl :
+
+http://stackoverflow.com/questions/24924573/angular-convert-curl-to-angular-http-post-request
+
+Calcender : http://codepen.io/ooystein/pen/edjyH
+
+
+http://doptiq.com/smart-forms/demos/samples/flat/timedatepicker-purple.html
+
+http://code.ionicframework.com/#nightly
+
+cordova plugins :
+-----------------
+http://ngcordova.com/docs/
+
+http://plugreg.com/plugins/
+
+http://plugreg.com/
+
+http://cordova.apache.org/
+
+
+http://mgcrea.github.io/angular-strap/1.0/#/datepicker
+
+https://developers.google.com/chart/interactive/docs/gallery
+
+https://github.com/phonegap-build/PushPlugin
+
+
+Projects Using AngularJS :
+--------------------------
+
+https://github.com/angular/angular.js/wiki/Projects-using-AngularJS
+
+Photo Gallery with AngularJS and CSS3 :
+--------------------------------------
+http://www.script-tutorials.com/photo-gallery-with-angularjs-and-css3/
+http://angular-ui.github.io/bootstrap/
+http://stackoverflow.com/questions/16677304/slide-up-down-effect-with-ng-show-and-ng-animate
+
+
+AngularJs Graph :
+-----------------
+
+http://blog.lingohub.com/developers/2014/06/comparison-angularjs-directives-charts-front-end-app-development/
+http://carlcraig.github.io/tc-angular-chartjs/
+
+
+
+Mobile Menu :
+-------------
+
+http://www.jqueryscript.net/tags.php?/side%20menu/
+
+http://weblog.west-wind.com/posts/2014/Feb/22/Using-CSS-Transitions-to-SlideUp-and-SlideDown
+
+http://plnkr.co/edit/uhChl94nLhrWCYVhRBUF?p=preview
+
+http://jsfiddle.net/N56vW/30/
+
+http://responsivenavigation.net/examples/simple-toggle/index.html
+
+http://designbeep.com/2014/01/18/64-jquery-css3-menu-plugins-and-tutorials/#	
+
+http://www.awwwards.com/stunning-resources-for-paper-folding-animation-effect.html
+
+http://codepen.io/tag/fold/16/
+
+http://davidwalsh.name/folding-animation
+
+http://www.css3files.com/transform/
+
+http://triceam.github.io/app-UI/examples/samples/03%20-%20slidingView/04%20-%20oridomi/
+
+http://stackoverflow.com/questions/14363656/using-setvalidity-inside-a-controller
+
+
+
+Angular JS Animation :
+---------------------
+http://slides.ng-tube.com/#/6
+
+
+http://www.ng-tube.com/#/
+
+
+http://www.jqueryscript.net/animation/
+
+https://github.com/yairhaimo/angular-route-animation-manager
+
+
+Bootstrap Angular JS :
+----------------------
+https://github.com/angular-ui/bootstrap/tree/gh-pages
+http://angular-ui.github.io/bootstrap/
+http://codepen.io/m-e-conroy/pen/ALsdF
+http://angular-ui.github.io/bootstrap/
+
+
+
+Topics :
+Containers
+	- container
+Grid system
+	.col-xs- 	.col-sm- 	.col-md- 	.col-lg-
+
+Alignment classes
+Transformation classes
+Tables
+	- table-striped
+	- table-bordered
+	- table-hover
+	- table-condensed
+ form
+	- form-inline
+	- form-horizontal
+	 <div class="form-group">
+		<label class="sr-only" for="exampleInputEmail2">Email address</label>
+		<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+	  </div>
+http://getbootstrap.com/2.3.2/javascript.html 
+
+Scroll :
+http://jsfiddle.net/mekwall/up4nu/
+
+
+http://codepen.io/gurprit/pen/behFr
+
+
+http://codepen.io/netsi1964/pen/iyglK
+
+http://demo.hongkiat.com/jquery-ui-sortable/
+
+http://codepen.io/tag/skrollr/
+
+
+Jquery sample: http://interface.eyecon.ro/demos/ifx.html#drop-fx
+Cube rotation: http://desandro.github.io/3dtransforms/docs/card-flip.html
+http://www.sanwebe.com/2013/01/40-css-buttons-from-codepen
+
+244 - isTablet
+360
+
+http://jsfiddle.net/maniator/VS8tQ/3/
+
+
+
+
+
+
+Push Notification :
+
+http://blogs.telerik.com/appbuilder/posts/14-01-14/let%27s-get-push-notifications-working-in-phonegap-and-ios
+
+http://www.pubnub.com/blog/sending-android-push-notifications-via-gcm-javascript-using-phonegap/
+
+http://forum.ionicframework.com/t/some-good-push-notification-server-like-pushwoosh/18946/6
+https://github.com/jvaclavik/push-notification-server-android-ios-php
+
+
+Routes use full URL :
+
+Sample for Cart :
+http://viralpatel.net/blogs/angularjs-routing-and-views-tutorial-with-example/
+
+
+
+http://stackoverflow.com/questions/25896675/passing-multiple-parameters-in-an-angularjs-route
+
+https://scotch.io/tutorials/3-simple-tips-for-using-ui-router
+
+http://liamkaufman.com/blog/2013/11/11/understanding-angularjs-directives-part2-ng-view/
+
+http://blog.hfarazm.com/category/angular-js/
+
+
+Push Notification :
+==================
+http://lessons.runrev.com/m/4069/l/53405-how-do-i-use-push-notifications-with-ios
+
+http://mobiforge.com/design-development/programming-apple-push-notification-services
+https://blog.serverdensity.com/how-to-build-an-apple-push-notification-provider-server-tutorial/
+
+http://www.kubilayerdogan.net/sample-apple-push-notification-php-script/
+
+http://stackoverflow.com/questions/24351821/push-notification-ios-not-recived-sent-with-php-code
+
+http://vxtindia.com/blog/push-notifications-for-your-iphone-app-with-php-and-ubuntu/
+
+
+http://b2cloud.com.au/tutorial/ios-push-notifications-in-php/
+
+Using ApnsPHP: 
+
+https://github.com/duccio/ApnsPHP/tree/master/ApnsPHP
+
+https://blog.nraboy.com/2015/01/upload-files-remote-server-using-ionic-framework/(file transfer)
+
+https://www.genuitec.com/products/myeclipse/learning-center/mobile/mobile-app-ionic/
+
+FOR Button loading style js :
+=============================
+http://msurguy.github.io/ladda-bootstrap/
+
+Bootstrap image link and class:
+==================================
+http://getbootstrap.com/components/
+
+
+
+Local notification:
+==================
+https://www.topcoder.com/blog/notifications-in-ios-8-using-swift/
+http://www.appcoda.com/local-notifications-ios8/
+http://jamesonquave.com/blog/local-notifications-in-ios-8-with-swift-part-2/
+http://php.zeering.com/LoadAnswers.aspx?q=AngularJS%20-%20Why%20doesn%27t%20replace:%20true%20work%20with%20templateUrl%20property?
+
+vimeo video angular js:
+======================
+https://github.com/vincenzomerolla/angular-vimeo-embed
+https://developer.vimeo.com/player/js-api
+https://codepen.io/bdougherty/embed/JgDfm?height=450&slug-hash=JgDfm&default-tab=js&host=http%3A%2F%2Fcodepen.io#0
+http://stackoverflow.com/questions/2503235/vimeo-videos-in-iphone-app
+https://developer.vimeo.com/apis/oembed#examples
+https://vimeo.com/help/faq/mobile/vimeo-on-ios#does-vimeo-have-an-ios-app
+https://vimeo.com/help/faq/mobile-apps/mobile-site
+https://vimeo.com/help/faq/mobile/mobile-videos
+https://developer.vimeo.com/player/embedding
+
+
+
+Facebook :
+https://graph.facebook.com/927089367345744
+
+
+
+Angular 2 :
+
+http://www.talkingdotnet.com/difference-between-angular-1-x-and-angular-2/
+https://www.dartdocs.org/documentation/angular2/2.0.0-beta.9/angular2/angular2-library.html
+
+
+http://stackoverflow.com/questions/12926830/typescript-compiling-as-a-single-js-file

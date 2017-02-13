@@ -1,0 +1,46 @@
+<div class="tube y letter_v_1" style="top: 20px; left: 0px;height: 63px;background:red;">
+	<!-- <div class="water y top"></div> -->
+</div>
+<div class="tube x" style="top: 67px; left: 12px;width:20px;background:red;">
+	<!-- <div class="water y top"></div> -->
+</div>
+<div class="tube y letter_v_2" style="top: 20px; left: 29px;height: 63px;background:red;">
+	<!-- <div class="water y top"></div> -->
+</div>
+line number  -  value  -  change value
+244 - 984  - 320 - isTablet condition
+360 - 1011 -  0
+
+Java :	
+http://www.javadb.com/reading-objects-from-file-using-objectinputstream/
+http://www.javadb.com/writing-objects-to-file-with-objectoutputstream/
+
+
+2) iOS 
+a) get familiar with XCode 
+b) basics programming in Swift 
+c) how to use 3rd party library in swift 
+d) how to create library / jar in swift 
+e) how to create a simple iOS application using swift 
+f) how to use 3rd party library in iOS application 
+g) how to create library for iOS application 
+h) how to create a WebView and fire an URL or load a HTML in iOS application 
+i) how to call a RESTFul API in the iOS application 
+j) create the library (business logic) 
+k) test the library with sample application 
+Please check it and let us know your thoughts.
+
+
+
+https://github.com/glock45/swifter/tree/master/Common
+http://jamesonquave.com/blog/making-a-post-request-in-swift/
+http://stackoverflow.com/questions/24016142/how-to-make-an-http-request-in-swift	
+https://github.com/daltoniam/swiftHTTP
+http://www.brianjcoleman.com/tutorial-post-to-web-server-api-in-swift-using-nsurlconnection/
+https://www.topcoder.com/blog/calling-apis-parsing-json-with-swift/
+http://192.168.2.34/venkat/mobile/swift_call.php
+
+
+http://192.168.2.34/Karthik_R/library/apilayer/login?mode=login&username=test&password=test
+http://192.168.2.34/Karthik_R/library/apilayer/login?mode=login&username=JOHN&password=1234
+http://192.168.2.34/Karthik_R/library/apilayer/login?mode=login&username=JOHN&password=1234

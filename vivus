@@ -1,0 +1,62 @@
+Vivus 
+   is a little JavaScript class.
+   to make drawing animation with SVGs in a webpage.
+
+How it works?
+   this script use the CSS property strokeDashoffset.
+   is only available on path elements.
+
+How to use it?
+   
+	new Vivus('my-svg-id', {type: 'delayed', duration: 200}, myCallback); 
+  
+   The Vivus constructor asks 3 parameters :
+
+	ID of the SVG to animate (or the DOM element)
+	Option object (described in the following)
+	Callback to call at the end of the animation (optional)
+
+   The option object must respect this structure :
+  
+   type string
+	define what kind of animation will be used: 
+	 1. delayed
+	 2. async
+	 3. oneByOne
+	 4. scenario or scenario-sync
+   duration integer
+	animation duration, in frames
+   start string
+	define how to trigger the animation
+	inViewport once the SVG is in the viewport
+	manual give you the freedom to call play method to start
+	autostart make it start right now
+   delay integer
+	time between the drawing of first and last path, in frames (only for delayed animations)
+   selfDestroy boolean
+	remove all extra styling on the SVG, and leave it as original 
+
+
+scenario :
+     to define the start and duration of each element with data-start and data-duration attributes
+
+	data-start integer
+	   time when the animation must start, in frames
+	data-duration integer
+	   animation duration of this path, in frames 
+
+<svg>
+   <circle data-start="0" data-duration="10" ... />
+  <circle data-start="20" data-duration="10" ... />
+  <circle data-start="20" data-duration="20" ... />
+  <circle data-start="0" data-duration="30" ... />
+</svg>
+
+
+scenario-sync :
+   data-delay integer
+	time between the end of the animation of the previous path and the start of the current path, in frames
+   data-duration integer
+	animation duration of this path, in frames
+   data-async (no value required)
+	make the drawing of this path asynchronous. It means the next path will start at the same time. 
