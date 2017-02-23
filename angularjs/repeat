@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+	<script>
+		angular.module('myapp',[])
+		.controller('testController',function($scope) {
+			$scope.friends = [
+				  {name:'John', age:25, gender:'boy'},
+				  {name:'Jessie', age:30, gender:'girl'},
+				  {name:'Johanna', age:28, gender:'girl'},
+				  {name:'Joy', age:15, gender:'girl'},
+				  {name:'Mary', age:28, gender:'girl'},
+				  {name:'Peter', age:95, gender:'boy'},
+				  {name:'Sebastian', age:50, gender:'boy'},
+				  {name:'Erika', age:27, gender:'girl'},
+				  {name:'Patrick', age:40, gender:'boy'},
+				  {name:'Samantha', age:60, gender:'girl'}
+				];
+			//$scope.itemFilter='J';
+			//alert($scope.mydata.items);
+			/*$scope.mydata={
+				id1 : {name : "aaaa",age  : "12"},
+				id2 : {name : "bbbbb",age  : "12"}
+			};
+			var person_id = prompt("Please enter Person Id", "");
+			$scope.person_id=person_id;*/
+			//alert($scope.person_id);
+			//$scope.person = {firstName:{name:"John"}, lastName:"Doe", age:46};
+			//alert($scope.mydata.text1.name);
+		})
+	</script>
+ <body ng-app='myapp'>
+	<div ng-controller='testController'>
+		<ol>
+			<li ng-repeat="friend in friends">{{friend.name}}</li>
+		</ol>
+		<ol>
+			<li ng-repeat="friend in friends | filter: itemFilter">{{friend.name}}</li>
+		</ol>
+		
+		<ol>
+			<li ng-repeat="friend in friends">{{friend.name}}-{{friend.age | number :2}}</li>
+		</ol>
+	</div>
+ </body>
+</html>

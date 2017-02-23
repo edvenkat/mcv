@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html ng-app=''>
+ <head>
+  <title> Introducing ng-repeat with JSON </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+ <script src="data.js"></script>
+	<script>
+		function friendsCtrl($scope) {
+			$scope.friends =data;
+
+			console.log($scope.friends);
+
+			for (var i=0;i< $scope.friends.length ;i++ )	{
+				if(i=="1") {
+					$scope.friends[i].isdone="done";
+				}
+			}
+		}
+	</script>
+ <body ng-controller='friendsCtrl'>
+	{{friends}}
+	<table cellspacing="0" cellpadding="3" border='1'>
+	<tr>
+		<th>Name</th><th>Age</th><th>Gender</th>
+	</tr>
+	<tr ng-repeat="friend in friends">
+		<td>{{friend.name}}</td>
+		<td>{{friend.age}}</td>
+		<td>{{friend.gender}}</td>
+	</tr>
+</table>
+ </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="myApp" ng-controller="MainController">
+<head>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+<style>
+	.div1 {
+    background: Brown;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.div1 p {
+    position: relative;
+    top: 50%;
+}
+</style>
+<script>
+angular.module("myApp", []) //
+    .controller('MainController', function($scope) {
+        $scope.toggle = function(section) {
+            console.log('<toggle function> section :' + section);
+            $scope.section = section;
+            $scope.$broadcast('event:toggle');
+        }
+    }) //
+    .directive('toggle', function() {
+        return function(scope, elem, attrs) {
+            scope.$on('event:toggle', function() {
+                if(attrs.toggle == scope.section){
+                    elem.slideToggle('fast');
+                }
+            });
+        };
+    });
+</script>
+<body>
+    <div>
+        <input type="button" ng-click="toggle('first')" value="Toggle First">
+        <input type="button" ng-click="toggle('second')" value="Toggle Second">
+        <input type="button" ng-click="toggle('third')" value="Toggle third">
+        <div class="div1" section="first" toggle="first" >
+            <p>This is section #1</p>
+        </div>
+        <div class="div1" toggle="second">
+            <p>This is another section #1</p>
+        </div>
+        <div class="div1" toggle="third">
+            <p>This is 3 section #1</p>
+        </div>
+    </div>
+</body>
+<footer>
+</footer>
+</html>

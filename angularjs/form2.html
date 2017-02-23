@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> Form validateion </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+ <script>
+	angular.module('myapp',[])
+	.controller('testController',function($scope) {
+			$scope.myForm = {};
+			$scope.myForm.firstName = "";
+			$scope.myForm.submitTheForm=function(myFormNg) {
+				if(myFormNg.$valid) {
+					alert('form Submitted Successfully');
+				}
+			}
+			$scope.myForm.getFormFieldCssClass = function(ngModelController) {
+				//console.log("getting css class: " + ngModelController.$valid) ;
+				if(ngModelController.$pristine) return "";
+				return ngModelController.$valid ? "fieldValid" : "fieldInvalid";
+			}
+	})
+ </script>
+ <style>
+    .fieldValid {
+        border: 1px solid #00ff00;
+    }
+    .fieldInvalid {
+        border: 1px solid #ff0000;
+    }
+	.error {
+		color :red;
+	}
+</style>
+
+ <body ng-app='myapp'>
+	<div ng-controller='testController'>
+		<form name="myFormNg" ng-submit="myForm.submitTheForm(myFormNg)" novalidate>
+			First name :<input type="text" name="firstName" ng-model="myForm.firstName" ng-minlength='5' ng-maxlength='7'>
+			<span class="error" ng-show="myFormNg.firstName.$error.minlength">Name lenght too low </span>
+			<span class="error" ng-show="myFormNg.firstName.$error.maxlength">Name lenght too high </span><br/><br/>
+
+			Color : <input type="checkbox" ng-model="myForm.blue" ng-true-value="yes" ng-false-value="no" ng-required="true">blue
+					<input type="checkbox" ng-model="myForm.green" ng-true-value="yes" ng-false-value="no" ng-required="true">green<br/><br/>
+
+
+			<button>Submit</button>
+		</form>
+	</div>
+ </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+	<script>
+		angular.module('myapp',[])
+		.controller('testController',function($scope) {
+			$scope.mydata={};
+			$scope.mydata.month=2;
+		})
+	</script>
+ <body ng-app='myapp'>
+	<div ng-controller='testController'>
+		<div ng-switch on='mydata.month'>
+			<div ng-switch-when='1'>It's 1</div>
+			<div ng-switch-when='2'>It's 2</div>
+			<div ng-switch-when='1'>It's 1</div>
+			<div ng-switch-when='2'>It's 2</div>
+			<div ng-switch-default>hai to all</div>
+		</div>
+		<div ng-include="'photo.html'"></div>
+	</div>
+ </body>
+</html>

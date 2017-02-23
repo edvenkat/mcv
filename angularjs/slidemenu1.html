@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html ng-app='ionicApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="css/ionic.css" rel="stylesheet">
+    <script src="js/ionic.bundle.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!-- Needed for Cordova/PhoneGap (will be a 404 during development) -->
+    <!-- <script src="cordova.js"></script> -->
+  </head>
+  <script>
+	angular.module('ionicApp', ['ionic'])
+	.controller('MyCtrl', function($scope,$ionicSideMenuDelegate) {
+		$scope.items=['item1','item2','ite32','item4','item5','item6','item7','item8','item9','item10','item11'];
+		$scope.toggleProjects = function() {
+			$ionicSideMenuDelegate.toggleLeft();
+			//alert('test');
+			if(angular.element(document.querySelector('#menu-collapsed')).prop("checked")==true)
+				angular.element(document.querySelector('#menu-collapsed')).prop("checked",false);
+			else 
+				angular.element(document.querySelector('#menu-collapsed')).prop("checked",true);
+			
+		};
+	});
+  </script>
+<style>
+.menu-animated {
+	transition : transform 1s ease !important;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: rgba(252,251,250,0.9);
+}
+.menu1 {
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-ms-perspective: 1000px;
+	-o-perspective: 1000px;
+	perspective: 1000px;
+	transition: background-color .3s linear;
+}
+.menu1 .menu-content {
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	-webkit-transform: translate3d(0px, 0px, 0px) rotateY(0deg);
+	-moz-transform: translate3d(0px, 0px, 0px) rotateY(0deg);
+	-ms-transform: translate3d(0px, 0px, 0px) rotateY(0deg);
+	-o-transform: translate3d(0px, 0px, 0px) rotateY(0deg);
+	transform: translate3d(0px, 0px, 0px) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	float: left;
+	width: 9em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.menu1 .menu-content  h2 {
+	font-family: 'Handlee', cursive;
+	font-size: 1em;
+	font-weight: normal;
+	margin-left: 1em;
+}
+.menu1 .menu-content  ul {
+	list-style: none;
+}
+.menu1 .menu-content-1 {
+	-webkit-transform-origin: right center;
+	-moz-transform-origin: right center;
+	-ms-transform-origin: right center;
+	-o-transform-origin: right center;
+	transform-origin: right center;
+}
+.menu1 .menu-content-2 {
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-ms-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+}
+.menu1 .menu-content-2 > ul {
+	left: -9em;
+	position: relative;
+}
+.menu1 .menu-content-2 > h2 {
+	left: -9em;
+	position: relative;
+}
+.menu1  .menu-content-3 {
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+	-webkit-transition-delay: 1s;
+	-moz-transition-delay: 1s;
+	-ms-transition-delay: 1s;
+	-o-transition-delay: 1s;
+	transition-delay: 1s;
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-ms-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	width: 18em;
+}
+.menu1  li, label  {
+	color: rgba(252,251,250,0.5);
+	cursor: pointer;
+	-webkit-transition-duration: 1.0s;
+	-moz-transition-duration: 1.0s;
+	-ms-transition-duration: 1.0s;
+	-o-transition-duration: 1.0s;
+	transition-duration: 1.0s;
+	
+}
+.menu1  li, label :hover {
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	color: rgba(252,251,250,0.9);
+}
+.menu1  .menu-switch {
+	position: absolute;
+	margin-left: 12em;
+	padding-top: 6em;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+.menu1  .menu-switch  label {
+	font-size: 3em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.menu1 input {
+	display: none;
+}
+.menu1  #menu-collapsed:checked ~ .menu-content-1 {
+	-webkit-transform: translate3d(-9em, 0, 0) rotateY(96deg);
+	-moz-transform: translate3d(-9em, 0, 0) rotateY(96deg);
+	-ms-transform: translate3d(-9em, 0, 0) rotateY(96deg);
+	-o-transform: translate3d(-9em, 0, 0) rotateY(96deg);
+	transform: translate3d(-9em, 0, 0) rotateY(96deg);
+}
+.menu1  #menu-collapsed:checked ~ .menu-content-2 {
+	-webkit-transform: translate3d(-9em, 0em, 0em) rotateY(-84deg);
+	-moz-transform: translate3d(-9em, 0em, 0em) rotateY(-84deg);
+	-ms-transform: translate3d(-9em, 0em, 0em) rotateY(-84deg);
+	-o-transform: translate3d(-9em, 0em, 0em) rotateY(-84deg);
+	transform: translate3d(-9em, 0em, 0em) rotateY(-84deg);
+	background-color: rgba(128, 128, 128, 0.25);
+}
+.menu1  #menu-collapsed:checked ~ .menu-content-3 {
+	opacity: 0.0;
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	ms-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.menu1  #menu-collapsed:checked ~  .menu-switch {
+	margin-left: 0em;
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+}
+
+</style>
+<body ng-controller="MyCtrl">
+	<ion-side-menus>
+		<ion-side-menu-content edge-drag-threshold="true" drag-content="true">
+			<ion-header-bar class="bar-dark">
+				<button class="button button-icon"  ng-click="toggleProjects()">
+					<i class="icon ion-navicon"></i>
+				</button>
+				<h1 class="title">Todo</h1>
+			</ion-header-bar>
+			<ion-content on-drag="onDrag()" >
+				eurgwejhgrhjsdghdfhgdfsdfhgshdgfh
+				<button on-drag="onDrag()" class="button">Test</button>sdfsd
+				<!-- <div class='element'></div> -->
+			</ion-content>
+			<ion-footer-bar class="bar-dark">
+				<h1 class="title">footer</h1>
+			</ion-footer-bar>
+		</ion-side-menu-content>
+		<ion-side-menu side="left" style='background:black;'>
+			<div class="menu1">
+				<input type="checkbox" id="menu-collapsed" name="menu-collapsed" checked="checked" />
+				<div class="menu-content menu-content-1">
+					<h2>CSS only 3D fold menu</h2>
+					<ul>
+						<li>lorem ipsum</li>
+						<li>dolor sit amet</li>
+						<li>consetetur sadipscing </li>
+						<li>elitr</li>
+						<li>sed diam nonumy</li>
+						<li>eirmod tempor</li>
+						<li>invidunt ut</li>
+						<li>labore et dolore</li>
+					</ul>
+				</div>
+				<div class="menu-content menu-content-2">
+					<h2>CSS only 3D fold menu</h2>
+					<ul>
+						<li>lorem ipsum</li>
+						<li>dolor sit amet</li>
+						<li>consetetur sadipscing</li>
+						<li>elitr</li>
+						<li>sed diam nonumy</li>
+						<li>eirmod tempor</li>
+						<li>invidunt ut</li>
+						<li>labore et dolore</li>
+					</ul>
+				</div>
+				<div class="menu-content menu-content-3">
+					<h2>CSS only 3D fold menu</h2>
+					<ul>
+						<li>lorem ipsum</li>
+						<li>dolor sit amet</li>
+						<li>consetetur sadipscing</li>
+						<li>elitr</li>
+						<li>sed diam nonumy</li>
+						<li>eirmod tempor</li>
+						<li>invidunt ut</li>
+						<li>labore et dolore</li>
+					</ul>
+				</div>
+			</div>
+		</ion-side-menu>
+		<!-- <ion-side-menu side="right" is-enabled='true'>
+		</ion-side-menu> -->
+	</ion-side-menus>
+  </body>
+</html>

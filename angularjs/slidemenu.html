@@ -1,0 +1,101 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE html>
+<html ng-app='ionicApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="css/ionic.css" rel="stylesheet">
+    <script src="js/ionic.bundle.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!-- Needed for Cordova/PhoneGap (will be a 404 during development) -->
+    <!-- <script src="cordova.js"></script> -->
+  </head>
+  <script>
+	angular.module('ionicApp', ['ionic'])
+	.controller('MyCtrl', function($scope,$ionicSideMenuDelegate) {
+		//$scope.slideHasChanged=function()
+		$scope.items=['item1','item2','ite32','item4','item5','item6','item7','item8','item9','item10','item11'];
+		$scope.toggleProjects = function() {
+			$ionicSideMenuDelegate.toggleRight();
+		  };
+		  $scope.onDrag=function() {
+			var p = $( ".menu-content" );
+				//var position = p.position();
+				var matrix = $(".menu-content").css("-webkit-transform");
+				var matrix = $(".menu-content").css("transform");
+				var len1=matrix.substr(18, 4);
+				var len = len1.replace(",", ""); 
+				//console.log(len);
+				var tot=len;
+				var l=tot/2;
+				var l2=tot-125;
+				console.log(tot);
+				if(tot>=275) {
+					//$(".element").css("-webkit-clip-path"," polygon(0px 0, 275px 0, 275px 0px, 275px 320px, 275px 275px, 250px 275px, 0 275px, 0 320px, 0 180px, 0 0)");
+					//$(".element").css(" shape-inside"," polygon(0px 0, 275px 0, 275px 0px, 275px 320px, 275px 275px, 250px 275px, 0 275px, 0 320px, 0 180px, 0 0)");
+
+					$(".element").css({"-webkit-clip-path":" polygon(0px 0, 275px 0, 275px 0px, 275px 320px, 275px 275px, 250px 275px, 0 275px, 0 320px, 0 180px, 0 0)"," shape-inside":" polygon(0px 0, 275px 0, 275px 0px, 275px 320px, 275px 275px, 250px 275px, 0 275px, 0 320px, 0 180px, 0 0)"});
+					//$(".element").css();
+
+
+				} else {
+					$(".element").css("-webkit-clip-path","polygon(0px 0, "+l+"px 70px, "+tot+"px 0px, "+tot+"px 275px, "+tot+"px 275px, "+l+"px 350px, 0px 275px, 0px 0px, 0px 0px, 0px 0px )");
+					//$(".element").css("shape-inside","polygon(0px 0, "+l+"px 70px, "+tot+"px 0px, "+tot+"px 275px, "+tot+"px 275px, "+l+"px 350px, 0px 275px, 0px 0px, 0px 0px, 0px 0px )");
+
+
+					//$(".element").css({"-webkit-clip-path":" polygon(0px 0, "+l+"px 70px, "+tot+"px 0px, "+tot+"px 275px, "+tot+"px 275px, "+l+"px 350px, 0px 275px, 0px 0px, 0px 0px, 0px 0px )"," shape-inside":"polygon(0px 0, "+l+"px 70px, "+tot+"px 0px, "+tot+"px 275px, "+tot+"px 275px, "+l+"px 350px, 0px 275px, 0px 0px, 0px 0px, 0px 0px )"});
+				}
+
+				
+		  }
+	});
+  </script>
+<style>
+		.element {   
+		position:absolute;
+		left:0px;
+  background-color: red; 
+  color: white;
+  width: 2750px; 
+  height: 500px;
+  margin: 30px auto;
+  text-align: justify;
+  shape-padding: 10px;
+  //transition: all 3s ease; 
+ -webkit-clip-path: polygon(0px 0, 275px 0, 275px 0px, 275px 320px, 275px 275px, 250px 275px, 0 275px, 0 320px, 0 180px, 0 0);
+} 
+element:hover{ 
+     -webkit-clip-path: polygon(0px 0, 150px 70px, 275px 0px, 275px 275px, 275px 275px, 150px 350px, 0px 275px, 0px 0px, 0px 0px, 0px 0px );
+} 
+	</style>
+  <body ng-controller="MyCtrl">
+	<ion-side-menus>
+		<ion-side-menu-content edge-drag-threshold="true" drag-content="true">
+			<ion-header-bar class="bar-dark">
+				<h1 class="title">Todo</h1>
+				<button class="button button-icon" ng-click="toggleProjects()">
+					<i class="icon ion-navicon"></i>
+				</button>
+			</ion-header-bar>
+			<ion-content on-drag="onDrag()">
+				eurgwejhgrhjsdghdfhgdfsdfhgshdgfh
+				<button on-drag="onDrag()" class="button">Test</button>
+
+
+				<!-- <div class='element'></div> -->
+			</ion-content>
+			<ion-footer-bar class="bar-dark">
+				<h1 class="title">footer</h1>
+			</ion-footer-bar>
+		
+		</ion-side-menu-content>
+		gfggfyfgty
+		<ion-side-menu side="left">
+			<div class='element'>eurgwejhgrhjsdghdfhgdfsdfhgshdgfh</div>
+		</ion-side-menu>
+		<ion-side-menu side="right" is-enabled='true'>
+		</ion-side-menu>
+	</ion-side-menus>
+  </body>
+</html>

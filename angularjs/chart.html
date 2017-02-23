@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Angular-charts</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+  /* Put your css in here */
+
+.chart {
+ width: 100%;
+ height: 500px;
+}
+  </style>
+  <script data-require="angular.js@1.2.2" src="http://code.angularjs.org/1.2.2/angular.js" data-semver="1.2.2"></script>
+  <script data-require="d3@*" data-semver="3.3.11" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.js"></script>
+  <script type="text/javascript" src="https://rawgit.com/chinmaymk/angular-charts/bower/dist/angular-charts.min.js"></script>
+  <script>
+  angular.module('plunker', ['angularCharts']);
+
+function MainCtrl($scope) {
+  $scope.config = {
+    title: 'Products',
+    tooltips: true,
+    labels: false,
+    mouseover: function() {},
+    mouseout: function() {},
+    click: function() {},
+    legend: {
+      display: true,
+      //could be 'left, right'
+      position: 'right'
+    }
+  };
+
+  $scope.data = {
+    series: ['Sales', 'Income', 'Expense', 'Laptops', 'Keyboards'],
+    data: [{
+      x: "Laptops",
+      y: [100, 500, 0],
+      tooltip: "this is tooltip"
+    }, {
+      x: "Desktops",
+      y: [300, 100, 100,1000]
+    }, {
+      x: "Mobiles",
+      y: [351,100,1000]
+    }, {
+      x: "Tablets",
+      y: [54, 0, 879]
+    }]
+  };
+}
+  </script>
+
+</head>
+
+<body ng-controller="MainCtrl">
+  <div 
+    data-ac-chart="'line'" 
+    data-ac-data="data" 
+    data-ac-config="config" 
+    class="chart">
+  </div>
+</body>
+
+</html>

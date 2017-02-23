@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Learning AngularJS</title>
+		<meta name="Generator" content="EditPlus">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js" type="text/javascript"></script>
+		<!-- <script src="js/angular.min.js" type="text/javascript"></script> -->
+		<script>
+			var app = angular.module('myapp',[]);
+			app.controller('MessageController',function($scope) {
+				$scope.isError=false;
+				$scope.isSuccess=false;
+				$scope.text='Hai';
+				
+				$scope.Error=function() {
+					$scope.isError=true;
+					$scope.isSuccess=false;
+					$scope.text='ERROR';
+				}
+				$scope.Success=function() {
+					$scope.isSuccess=true;
+					$scope.isError=false;
+					$scope.text='SUCCESS';
+				}
+			});
+		</script>
+		<style>
+			.error {
+				color: red;
+			}
+			.success {
+				color: green;
+			}
+		</style>
+	</head>
+	<body ng-app="myapp">
+		<div ng-controller='MessageController'>
+			<div ng-class='{error: isError, success : isSuccess}'>{{text}}</div>
+			<button ng-click='Error()'>ERROR</button>
+			<button ng-click='Success()'>SUCCESS</button>
+		</div>
+	</body>
+</html>

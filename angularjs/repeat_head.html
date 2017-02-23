@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+	<script>
+		angular.module('myapp',[])
+		.controller('testController',function($scope) {
+			$scope.items = [{name: 'First', role: "-1"},{name: 'Second', role:"0"},{name: 'Third', role: "1"},{name: 'Fourth', role: "2"}];
+			$scope.currentRole1 = 'something';
+			$scope.currentRole2 = 'something';
+			$scope.currentRole3 = 'something';
+			$scope.CreateHeader = function(role) {
+				
+				if(role<0) {
+					role = "old";
+					
+					
+				}
+				if(role>0) {
+					role = "future";
+					/*showHeader = (role!=$scope.currentRole2); 
+					$scope.currentRole2 = "future";*/
+
+					//alert("future");
+				}
+				if(role==0) {
+					//alert(role);
+					role = "today";
+					/*alert("value"+$scope.currentRole3)
+					showHeader = (role!=$scope.currentRole3); 
+					$scope.currentRole3 = "today";
+					alert(showHeader);*/
+				}
+				showHeader = (role!=$scope.currentRole1); 
+				$scope.currentRole1 = role;
+				//alert("value"+$scope.currentRole1);
+				
+				return showHeader;
+			}
+		})
+	</script>
+ <body>
+	<div ng-app='myapp' ng-controller='testController'>
+		 <div ng-repeat="item in items | orderBy:'role'">
+			<div ng-show="CreateHeader(item.role)" ng-if='item.role<0'>old</div>
+			<div ng-show="CreateHeader(item.role)" ng-if='item.role==0'>Today</div>
+			<div ng-show="CreateHeader(item.role)" ng-if='item.role>0'>Future</div>
+			{{item.role}} - {{item.name}}
+		</div>
+	</div>
+ </body>
+</html>

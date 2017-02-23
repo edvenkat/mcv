@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html ng-app='myapp'>
+	<head>
+		<title>Learning AngularJS</title>
+		<meta name="Generator" content="EditPlus">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<script src="js/angular.min.js" type="text/javascript"></script>
+		<script>
+			var app1 = angular.module('myapp',[]);
+			app1.controller('MyController',function($scope) {
+				$scope.name='Hello';
+				 $scope.time = new Date();
+			});
+		</script>
+	</head>
+	<body ng-controller='MyController'>
+		<form action=''>
+			<input type='text' name='text_name' ng-model='name'>
+		</form>
+		<p ng-bind="name"></p>
+		<p ng-bind="time"></p>
+	</body>
+</html>
